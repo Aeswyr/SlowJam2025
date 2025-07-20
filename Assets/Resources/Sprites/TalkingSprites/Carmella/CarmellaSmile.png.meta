@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CarmellaSmile_0: -4603192715954035275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

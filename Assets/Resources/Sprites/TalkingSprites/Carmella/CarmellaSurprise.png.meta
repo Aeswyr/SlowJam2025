@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CarmellaSurprise_0: -7129561286481814045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

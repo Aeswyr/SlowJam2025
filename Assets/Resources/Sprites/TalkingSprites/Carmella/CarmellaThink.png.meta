@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CarmellaThink_0: 3265218961074575985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

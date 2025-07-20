@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CarmellaSad_0: 3379867039859007948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

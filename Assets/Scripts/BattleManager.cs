@@ -51,13 +51,17 @@ public class BattleManager : MonoBehaviour
         {
             // add skill buttons
             var button = Instantiate(skillButtonPrefab, skills.transform);
-            button.GetComponent<Button>().onClick.AddListener(AddAction);
+            int skillId = 0;
+            button.GetComponent<Button>().onClick.AddListener(() => AddAction(skillId));
             skillButtons.Add(button);
 
             // add undo button
-            var undo = Instantiate(skillButtonPrefab, skills.transform);
-            undo.GetComponent<Button>().onClick.AddListener(UndoAction);
-            skillButtons.Add(undo);
+            if (activeChar != 0)
+            {
+                var undo = Instantiate(skillButtonPrefab, skills.transform);
+                undo.GetComponent<Button>().onClick.AddListener(UndoAction);
+                skillButtons.Add(undo);
+            }
         }
     }
 
@@ -84,9 +88,9 @@ public class BattleManager : MonoBehaviour
         ChangeActiveChar(index);
     }
 
-    public void AddAction()
+    public void AddAction(int actionId)
     {
-        skillQueue.Add(0);
+        skillQueue.Add(actionId);
         if (skillQueue.Count < 5)
         {
             NextChar();

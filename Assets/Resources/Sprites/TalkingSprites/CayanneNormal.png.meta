@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CayanneNormal_0: -1011443289665869434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

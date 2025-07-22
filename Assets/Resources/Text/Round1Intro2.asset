@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Round1Intro2
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The first round starts and the curtains rise on the stage. On the
+      other side stands the first team you will be facing.\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The speaker bellows from above as the announcer speaks, \"Welcome
+      to the 20th Annual Chef Clash! For the first round, Cimino\u2019s versus The
+      Slop."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The head chef of The Slop steps up to the front with you. You extend
+      your hand to shake it but he doesn\u2019t unfold his arms.\r"
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 0
+    SpeakerName: John Greyman
+    TextLine: Finally we meet, Cimino.
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 1
+    SpeakerName: Carmella
+    TextLine: Do I know you?
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: 'I have trained for my whole LIFE just to face you. I was BORN to take
+      you down. '
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: ... Right.

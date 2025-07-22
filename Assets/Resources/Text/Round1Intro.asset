@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Round1Intro
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The lights go up on the 20th Annual Chef Clash.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: "You are Carmella Cimino, one of the world\u2019s greatest chefs, returning
+      with your beloved team to finally win yourselves the honor of Clash Winners."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 0
+    SpeakerName: Basil
+    TextLine: You ready?
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 1
+    SpeakerName: Carmella
+    TextLine: Always.

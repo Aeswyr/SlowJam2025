@@ -14,7 +14,7 @@ public class DialogManager : Singleton<DialogManager>
     [SerializeField] private TextMeshProUGUI[] speakerNames;
     private bool next;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         dialogParent.SetActive(false);
     }
@@ -67,7 +67,7 @@ public class DialogManager : Singleton<DialogManager>
 
             textBox.text = text.Substring(0, i);
 
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForNextFrameUnit();
 
             
         }

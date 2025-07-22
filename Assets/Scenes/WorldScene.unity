@@ -1068,7 +1068,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9688c9ff776ba554b97f41e6c0378184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testDialog: {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  openingDialog:
+  - {fileID: 11400000, guid: e7a9c4490e6fa664b8c52fbbf05400df, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  butcherDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  grocerDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  bakerDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  spiceDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
 --- !u!4 &1388348241
 Transform:
   m_ObjectHideFlags: 0

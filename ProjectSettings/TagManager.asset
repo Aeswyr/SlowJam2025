@@ -44,5 +44,8 @@ TagManager:
   - name: BattleChars
     uniqueID: 1533783109
     locked: 0
+  - name: ui
+    uniqueID: 2895325811
+    locked: 0
   m_RenderingLayers:
   - Default

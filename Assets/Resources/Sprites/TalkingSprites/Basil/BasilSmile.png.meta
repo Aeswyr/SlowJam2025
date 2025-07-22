@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BasilSmile_0: -8206881424027572638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

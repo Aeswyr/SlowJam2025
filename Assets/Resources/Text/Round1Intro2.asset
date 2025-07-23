@@ -39,10 +39,10 @@ MonoBehaviour:
     TextLine: Do I know you?
   - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
     IsRight: 0
-    SpeakerName: Carmella
+    SpeakerName: John Greyman
     TextLine: 'I have trained for my whole LIFE just to face you. I was BORN to take
       you down. '
   - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
-    IsRight: 0
+    IsRight: 1
     SpeakerName: Carmella
     TextLine: ... Right.

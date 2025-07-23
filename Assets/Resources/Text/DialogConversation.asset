@@ -12,4 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: DialogConversation
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The lights go up on the stage again for round two. You see a familiar
+      face across the way.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The announcer calls out, \"Welcome to round 2! So far Cimino\u2019s
+      has clutch themself a round 1 win, but will the Spice Pals be able to take
+      them down?\""
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You both approach the center.
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 0
+    SpeakerName: Cayenne
+    TextLine: Hello Carmella.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 1
+    SpeakerName: Carmella
+    TextLine: Cayenne.
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 0
+    SpeakerName: Cayenne
+    TextLine: "You might\u2019ve gotten past us last year, but this year will be
+      different. May the best chef win."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You shake hands and return to your stations.

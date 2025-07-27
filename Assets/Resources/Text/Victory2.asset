@@ -12,4 +12,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Victory2
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Aaaaand, the winner is... Cimino's!
+  - Sprite: {fileID: -7340428700335851791, guid: 20c75bab2a6c64f4ab5b90eecdc53027, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Damnit. I thought we had that.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: It was a good fight.
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Yeah, that it was.
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: See you next year.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Will do.
+  - Sprite: {fileID: -6429035053262269671, guid: cdaa6580b5a97584f96319df36923c9d, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: "And\u2026 Tell Basil I say hi."
+  - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Tell them yourself! I\u2019m not your messenger."
+  - Sprite: {fileID: 3209416239649801980, guid: d3706b87ea43f50458b7d6e45a0750b3, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Alright alright, geez. No need to pull out the hammer on me.
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: "It\u2019s been a good one, Carmella. Best of luck."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Thank you.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Cayenne turns to leave, then turns back momentarily.
+  - Sprite: {fileID: -7340428700335851791, guid: 20c75bab2a6c64f4ab5b90eecdc53027, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Oh, and Carmella. I thought I should give you the heads up.
+  - Sprite: {fileID: -7340428700335851791, guid: 20c75bab2a6c64f4ab5b90eecdc53027, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Nahla is competing this year.
+  - Sprite: {fileID: -7340428700335851791, guid: 20c75bab2a6c64f4ab5b90eecdc53027, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: From what I heard, she and her team have been making good progress.
+      You too might have to cross paths.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Got it.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: 'Cayenne leaves to converse with her team. They begin packing their
+      things. '
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(I should\u2019ve expected this\u2026 We haven\u2019t gotten far enough
+      to face off any of the years we\u2019ve been competing.)"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(But I\u2019m not surprised she\u2019s made it so far. She\u2019s
+      incredible.)"

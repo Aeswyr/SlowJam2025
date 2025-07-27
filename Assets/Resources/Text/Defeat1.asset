@@ -15,9 +15,13 @@ MonoBehaviour:
   conversation:
   - Sprite: {fileID: 0}
     IsRight: 0
-    SpeakerName: 
+    SpeakerName: Announcer
     TextLine: Aaaaand, the winner is... The Slop!
   - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
-    IsRight: 0
+    IsRight: 1
     SpeakerName: John Greyman
     TextLine: Haha! You've been defeated Carmella!
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Damnit. We lost.

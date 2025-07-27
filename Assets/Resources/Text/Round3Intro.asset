@@ -12,4 +12,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Round3Intro
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: Round 3 is about to commence! Welcome to the semi-finals!
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: "After crushing the last two rounds, Cimino\u2019s is heading for the
+      top! Can they make it through their competitor\u2026"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: "They\u2019re a fan favorite! Welcome, Sweetie\u2019s Cafe!"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Sweetie\u2019s Cafe is a cafe run by drag artists. They serve some
+      of the best sweets in town and host a myriad of incredible drag events."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You approach the center.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: The legendary Carmella Cimino! Oh I absolutely love your cooking!
+  - Sprite: {fileID: 2423580806339538250, guid: aaa112f385f9d724496e0091c89c12fb, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "I hope it\u2019s not too forward to admit I\u2019ve taken my cuties
+      to dine at your establishment before."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Really? Well, next time you stop by, be sure to let Ruben know so we
+      can let you get some free desserts.
+  - Sprite: {fileID: 2423580806339538250, guid: aaa112f385f9d724496e0091c89c12fb, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "You\u2019re a peach! And that Rose-Marie\u2026 What a talent!"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Maybe after this is all over I should bring my team around to your
+      cafe for a treat.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Oh we\u2019d love to have you, hun!"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Best of luck.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: May the best babes win!

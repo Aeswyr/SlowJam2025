@@ -12,4 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Defeat4
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: Aaaaand, the winner is... La Tableau!
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: (Damnit. We lost!)
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Across the way, Nahla's team celebrates.
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: She looks back to you, like she wants to say something.
+  - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: But she's ushered away as her team drags her away to celebrate their
+      victory.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Maybe in a different world, you could finally talk to her about everything.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: But today, you lost. It's not time yet.

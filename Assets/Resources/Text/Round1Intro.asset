@@ -16,7 +16,7 @@ MonoBehaviour:
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 
-    TextLine: The lights go up on the 20th Annual Chef Clash.
+    TextLine: The lights go up on the 20th Annual Culinary Clash.
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 1
     SpeakerName: 

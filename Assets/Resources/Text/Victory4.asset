@@ -12,4 +12,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Victory4
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: 'Aaaaand, the winner is... '
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: ...
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: ...
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: ... Cimino's!
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The crowd breaks into uproarious applause. The team cheers, hugging
+      and crying. Finally, the win you had all been working towards for years had
+      come to pass.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Across the stage, Nahla and her team talk. She sees you looking and
+      the two of you appreach the center stage.
+  - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I can\u2019t believe it."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Yeah. I can hardly believe it either.
+  - Sprite: {fileID: -2221299533700959915, guid: f0b34ddf5b204f545a7a1fd0576a44e3, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "It\u2019s not like you to be so honest about how you feel."
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Hey, don\u2019t go expecting me to be how I was when I was in my 20\u2019s!"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Speaking of\u2026 why didn\u2019t you come with me all those years
+      ago?"
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "\u2026"
+  - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I didn\u2019t have it in my heart to abandon all the work our mentor
+      put into La Tableau."
+  - Sprite: {fileID: -2221299533700959915, guid: f0b34ddf5b204f545a7a1fd0576a44e3, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I wished you would\u2019ve stayed on as my sous, but I can see you
+      and your team have built something truly special at Cimino\u2019s."
+  - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I will admit\u2026 it does make me a bit sad that I can\u2019t join
+      you\u2026 Not that I'd ever want to abandon my new family at Tableau."
+  - Sprite: {fileID: -2221299533700959915, guid: f0b34ddf5b204f545a7a1fd0576a44e3, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "But\u2026 maybe we can cook together again someday?"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: My door is always open... and I expect to see you walking through it
+      as soon as we get out of here.
+  - Sprite: {fileID: -2221299533700959915, guid: f0b34ddf5b204f545a7a1fd0576a44e3, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: Haha. I look forward to it.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: After the competition is all over, you and your fellow competators
+      all get together for a celebratory party.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You and Nahla cook while everyone else spend all their time feasting
+      and socializing.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: But neither of you would want it any other way. It just feels nice
+      to be together again, cooking like you used to.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The end.

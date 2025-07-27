@@ -12,4 +12,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Victory3
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: Aaaaand, the winner is... Cimino's!
+  - Sprite: {fileID: -1490357679028025288, guid: b7bf9d8beb559b348883942bf028e978, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Whew! That was a workout.
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(Yeah\u2026 I\u2019m going to need several showers after this is all
+      over.)"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Great work out there. You were tough competitors.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Hope to be seeing you soon, hun. Promise to stop by the cafe?
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Promise.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Now you better get outta here and win those finals! I don\u2019t want
+      to have lost for nothing."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "We\u2019ll do our best."

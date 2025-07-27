@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Defeat3
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: Aaaaand, the winner is... Sweetie's Cafe!
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Sorry Miss Cimino. It was a tough fight.
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 1
+    SpeakerName: Carmella
+    TextLine: (They absolutely crushed us...)

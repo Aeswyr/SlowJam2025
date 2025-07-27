@@ -12,4 +12,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: FinalRoundIntro
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: "It\u2019s the final round. Congratulations to our two finalists."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: "On one side, we have Cimino\u2019s."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: "And on the other, let\u2019s hear it for LA TABLEAU!"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The lights go up. You see her across the way.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Long ago, you and Nahla had worked at La Tableau together. You were
+      best friends and rivals working from the bottom up of the culinary ladder.\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The two of you had had dreams of leaving to start your own restaurant,
+      but now Nahla was tied to La Tableau.\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "But when the time came for your mentor to choose a successor, Nahla
+      was chosen over you.\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "You left to start your own story. You were never able to face her\u2026\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Until today.\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The two of you approach from opposite ends of the stage.\r"
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "Carmella.\r"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Nahla\r"
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I imagined you would be the person I\u2019d face today.\r"
+  - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "Forgive me, but I can\u2019t go easy on you.\r"
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "I owe it to my team to try my best.\r"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I understand\r"
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: ...
+  - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
+    IsRight: 1
+    SpeakerName: Nahla
+    TextLine: "It\u2019s good to see you."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Before you can respond she turns away. The round is about to begin.

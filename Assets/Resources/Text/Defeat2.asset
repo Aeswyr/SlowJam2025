@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Defeat2
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: Announcer
+    TextLine: Aaaaand, the winner is... The Spice Pals!
+  - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
+    IsRight: 1
+    SpeakerName: Cayenne
+    TextLine: Sorry Cimino. Looks like you got topped.
+  - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: (Damnit... We lost!)

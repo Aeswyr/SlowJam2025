@@ -121,7 +121,7 @@ MonoBehaviour:
       Salty: 1
       Sour: 1
       Bitter: 0
-  - Name: Bechemel
+  - Name: Bechamel
     Sprite: {fileID: -1858395387658665622, guid: 38803f3570c40cc4cb29f332d173290e, type: 3}
     IsFood: 1
     flavors:

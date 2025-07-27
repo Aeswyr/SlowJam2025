@@ -35,6 +35,7 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private GameObject skills;
     [SerializeField] private GameObject skillButtonPrefab;
     [SerializeField] private GameObject skillName;
+    [SerializeField] private Transform skillTarget;
     [SerializeField] private TextMeshProUGUI skillText;
 
     [SerializeField] private string[] playerSkills;
@@ -56,7 +57,7 @@ public class BattleManager : MonoBehaviour
     private List<int> allyMeal = new();
     private List<int> enemyMeal = new();
     private int allyActions, enemyActions;
-    private float skillStartingY;
+    private Vector3 skillStartingPos;
     private int allyGuards, enemyGuards;
 
     private int round = 1;
@@ -84,7 +85,7 @@ public class BattleManager : MonoBehaviour
         }
 
 
-        skillStartingY = skillName.transform.localPosition.y;
+        skillStartingPos = skillName.transform.position;
         for (int i = 0; i < characters.Count; i++)
         {
             startPositions.Add(characters[i].transform.localPosition);
@@ -358,7 +359,7 @@ public class BattleManager : MonoBehaviour
 
         skillText.text = skill.Name;
         LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)skillName.transform);
-        skillName.transform.DOLocalMoveY(350, 0.5f);
+        skillName.transform.DOMove(skillTarget.position, 0.5f);
         yield return new WaitForSeconds(0.5f);
 
         if (skill.IsFood)
@@ -434,17 +435,30 @@ public class BattleManager : MonoBehaviour
                     }
                     break;
                 case 1: // throw
-                    var food = Instantiate(foodPrefab, activeChar >= 5 ? allyDish : enemyDish);
-                    food.transform.localPosition = ((activeChar >= 5 ? allyMeal.Count : enemyMeal.Count) * 0.25f + 0.5f) * Vector3.up;
-                    var sprite = food.GetComponent<SpriteRenderer>();
-                    sprite.sprite = skillLibrary.skills[25].Sprite;
-                    sprite.sortingOrder = (activeChar >= 5 ? allyActions : enemyActions) + 1;
-                    food.SetActive(true);
-
-                    if (activeChar >= 5)
-                        allyMeal.Add(25);
+                    if (activeChar < 5 && enemyGuards > 0)
+                    {
+                        enemyGuards--;
+                        enemyDish.transform.DOShakePosition(0.25f, vibrato: 50);
+                    }
+                    else if (activeChar >= 5 && allyGuards > 0)
+                    {
+                        allyGuards--;
+                        allyDish.transform.DOShakePosition(0.25f, vibrato: 50);
+                    }
                     else
-                        enemyMeal.Add(25);
+                    {
+                        var food = Instantiate(foodPrefab, activeChar >= 5 ? allyDish : enemyDish);
+                        food.transform.localPosition = ((activeChar >= 5 ? allyMeal.Count : enemyMeal.Count) * 0.25f + 0.5f) * Vector3.up;
+                        var sprite = food.GetComponent<SpriteRenderer>();
+                        sprite.sprite = skillLibrary.skills[25].Sprite;
+                        sprite.sortingOrder = (activeChar >= 5 ? allyActions : enemyActions) + 1;
+                        food.SetActive(true);
+
+                        if (activeChar >= 5)
+                            allyMeal.Add(25);
+                        else
+                            enemyMeal.Add(25);
+                    }
                     break;
                 case 2: // guard
                     break;
@@ -459,7 +473,7 @@ public class BattleManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        skillName.transform.DOLocalMoveY(skillStartingY, 0.5f);
+        skillName.transform.DOMove(skillStartingPos, 0.5f);
 
         yield return new WaitForSeconds(0.5f);
     }

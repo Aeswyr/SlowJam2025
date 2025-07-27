@@ -1477,8 +1477,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -3815,6 +3815,9 @@ MonoBehaviour:
   - sprites:
     - {fileID: -1858395387658665622, guid: 52ed6a62d437d734db78d800a2fd43ab, type: 3}
     - {fileID: -1858395387658665622, guid: 262e00892194b2b4d9bd8fd43b3321fe, type: 3}
+    - {fileID: -1858395387658665622, guid: da2388df91769e045bf6dc10f22e79c1, type: 3}
+    - {fileID: -1858395387658665622, guid: 30d0cb49b72da3c4c8c261d71060112c, type: 3}
+    - {fileID: -1858395387658665622, guid: 53aea37e931d0494cad0a9225ac78dbd, type: 3}
   - sprites:
     - {fileID: -1858395387658665622, guid: d44ce4dfbf7b7a54ebeb821733e4319a, type: 3}
     - {fileID: -1858395387658665622, guid: cd8db15375f9481409e52b2afb2e2e23, type: 3}

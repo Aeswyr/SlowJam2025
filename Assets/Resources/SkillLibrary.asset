@@ -213,13 +213,40 @@ MonoBehaviour:
       Bitter: 0
   - Name: Ham
     Sprite: {fileID: -1858395387658665622, guid: 86926a5383a49ef48a015c3bc87a50dd, type: 3}
-    IsFood: 0
+    IsFood: 1
     flavors:
       Umami: 2
       Sweet: 1
       Salty: 0
       Sour: 0
       Bitter: 0
+  - Name: Sugar
+    Sprite: {fileID: -1858395387658665622, guid: 2e841ec3d66dc184885df3f0d8f6d91b, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 3
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: Syrup
+    Sprite: {fileID: -1858395387658665622, guid: c567d841829378647afe1e9dce9ed4bf, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 2
+      Salty: 0
+      Sour: 0
+      Bitter: 1
+  - Name: Garbage
+    Sprite: {fileID: -1858395387658665622, guid: 3c35bac809d7675439b409abbcd8ad11, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: -1
+      Sweet: -1
+      Salty: -1
+      Sour: -1
+      Bitter: -1
   - Name: 
     Sprite: {fileID: 0}
     IsFood: 0

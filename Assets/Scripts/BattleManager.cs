@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +11,12 @@ using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
-    [SerializeField] private GameObject[] characters;
+    [SerializeField] private List<GameObject> characters;
     [SerializeField] private GameObject[] players;
     [SerializeField] private GameObject gameOver;
     [SerializeField] private TextMeshProUGUI roundCount;
+    [Header("Enemies")]
+    [SerializeField] List<EnemyTeam> enemies;
 
     [Header("Dish")]
     [SerializeField] private Transform allyDish;
@@ -22,7 +25,7 @@ public class BattleManager : MonoBehaviour
 
     [Header("Dialog")]
     [SerializeField] private DialogConversation battleTutorial;
-    [SerializeField] private DialogConversation openingDialog;
+    [SerializeField] private DialogConversation[] openingDialog;
     [SerializeField] private DialogConversation closingDialog;
     [SerializeField] private DialogConversation[] victoryDialog;
     [SerializeField] private DialogConversation[] lossDialog;
@@ -66,13 +69,28 @@ public class BattleManager : MonoBehaviour
         gameOver.SetActive(false);
         judgementComic.gameObject.SetActive(false);
 
+
+        var enemyTeam = enemies[Save.day].sprites;
+        for (int i = 0; i < 5; i++) {
+            if (i < enemyTeam.Length)
+            {
+                characters[5 + i].GetComponent<SpriteRenderer>().sprite = enemyTeam[i];
+            }
+            else
+            {
+                Destroy(characters[characters.Count - 1]);
+                characters.RemoveAt(characters.Count - 1);
+            }
+        }
+
+
         skillStartingY = skillName.transform.localPosition.y;
-        for (int i = 0; i < characters.Length; i++)
+        for (int i = 0; i < characters.Count; i++)
         {
             startPositions.Add(characters[i].transform.localPosition);
         }
 
-        DialogManager.Instance.StartDialogSequence(openingDialog, BeginCombat);
+        DialogManager.Instance.StartDialogSequence(openingDialog[Save.day], BeginCombat);
 
         roundCount.text = round.ToString();
     }
@@ -135,13 +153,13 @@ public class BattleManager : MonoBehaviour
 
     public void NextChar()
     {
-        ChangeActiveChar((activeChar + 1) % characters.Length);
+        ChangeActiveChar((activeChar + 1) % characters.Count);
     }
 
     public void ResetChars()
     {
         activeChar = -1;
-        for (int i = 0; i < characters.Length; i++)
+        for (int i = 0; i < characters.Count; i++)
         {
             characters[i].transform.DOLocalMoveX(startPositions[i].x, 0.5f);
         }
@@ -156,7 +174,7 @@ public class BattleManager : MonoBehaviour
         skillQueue.RemoveAt(skillQueue.Count - 1);
         int index = activeChar - 1;
         if (index < 0)
-            index = characters.Length - 1;
+            index = characters.Count - 1;
         ChangeActiveChar(index);
     }
 
@@ -174,9 +192,9 @@ public class BattleManager : MonoBehaviour
         else
         {
             var options = enemySkills[Save.day].Split(',');
-            for (int i = 0; i < characters.Length - 5; i++)
+            for (int i = 0; i < characters.Count - 5; i++)
             {
-                skillQueue.Add(int.Parse(options[Random.Range(0, options.Length)]));
+                skillQueue.Add(int.Parse(options[UnityEngine.Random.Range(0, options.Length)]));
             }
             selecting = false;
             StartCoroutine(ExecuteTurn());
@@ -200,7 +218,7 @@ public class BattleManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        for (int i = 0; i < characters.Length; i++)
+        for (int i = 0; i < characters.Count; i++)
         {
             NextChar();
             yield return new WaitForSeconds(0.5f);
@@ -394,16 +412,16 @@ public class BattleManager : MonoBehaviour
 
                     if (meal != null && dish != null)
                     {
-                        int target = Random.Range(0, meal.Count);
+                        int target = UnityEngine.Random.Range(0, meal.Count);
                         if (meal.Count > 0)
                         {
-                            
+
                             meal.RemoveAt(target);
                             var obj = dish.GetChild(target);
-                            dish.DOShakePosition(0.25f, strength:0.25f, vibrato: 20);
+                            dish.DOShakePosition(0.25f, strength: 0.25f, vibrato: 20);
                             var seq = DOTween.Sequence();
                             seq.Append(obj.DOBlendableLocalRotateBy(180 * Vector3.forward, 0.5f));
-                            seq.Join(obj.DOBlendableLocalMoveBy(10 * Random.insideUnitCircle.normalized, 0.5f));
+                            seq.Join(obj.DOBlendableLocalMoveBy(10 * UnityEngine.Random.insideUnitCircle.normalized, 0.5f));
                             seq.Play();
                             yield return new WaitForSeconds(0.5f);
                             Destroy(obj.gameObject);
@@ -416,6 +434,17 @@ public class BattleManager : MonoBehaviour
                     }
                     break;
                 case 1: // throw
+                    var food = Instantiate(foodPrefab, activeChar >= 5 ? allyDish : enemyDish);
+                    food.transform.localPosition = ((activeChar >= 5 ? allyMeal.Count : enemyMeal.Count) * 0.25f + 0.5f) * Vector3.up;
+                    var sprite = food.GetComponent<SpriteRenderer>();
+                    sprite.sprite = skillLibrary.skills[25].Sprite;
+                    sprite.sortingOrder = (activeChar >= 5 ? allyActions : enemyActions) + 1;
+                    food.SetActive(true);
+
+                    if (activeChar >= 5)
+                        allyMeal.Add(25);
+                    else
+                        enemyMeal.Add(25);
                     break;
                 case 2: // guard
                     break;
@@ -449,4 +478,10 @@ public class BattleManager : MonoBehaviour
         Application.Quit();
     }
 
+}
+
+[Serializable]
+public struct EnemyTeam
+{
+    public Sprite[] sprites;
 }

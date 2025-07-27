@@ -3804,17 +3804,45 @@ MonoBehaviour:
   - {fileID: 2131698115}
   gameOver: {fileID: 1248380372}
   roundCount: {fileID: 947594949}
+  enemies:
+  - sprites:
+    - {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+    - {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+    - {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+    - {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+    - {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+  - sprites:
+    - {fileID: -1858395387658665622, guid: 52ed6a62d437d734db78d800a2fd43ab, type: 3}
+    - {fileID: -1858395387658665622, guid: 262e00892194b2b4d9bd8fd43b3321fe, type: 3}
+  - sprites:
+    - {fileID: -1858395387658665622, guid: d44ce4dfbf7b7a54ebeb821733e4319a, type: 3}
+    - {fileID: -1858395387658665622, guid: cd8db15375f9481409e52b2afb2e2e23, type: 3}
+    - {fileID: -1858395387658665622, guid: 4b3833caac27ad14d98d0de61514fe4b, type: 3}
+    - {fileID: -1858395387658665622, guid: 7a5cd30d6b73ea04ba72cfa5640910ed, type: 3}
+    - {fileID: -1858395387658665622, guid: 977cd89e3d6b921419c225268253193f, type: 3}
+  - sprites:
+    - {fileID: -1858395387658665622, guid: d3e89ea766aeaad45882f389cad0d159, type: 3}
+    - {fileID: -1858395387658665622, guid: de9fe693b863a1c49ab0a4e07780e237, type: 3}
+    - {fileID: -1858395387658665622, guid: da67756c19a591342aee136a39dc4c56, type: 3}
+    - {fileID: -1858395387658665622, guid: 014a6bcced41fb246a721c6fe2abe2e8, type: 3}
+    - {fileID: -1858395387658665622, guid: 9a5644361566bd04b87c3c3b94681384, type: 3}
   allyDish: {fileID: 1955544802}
   enemyDish: {fileID: 770813683}
   foodPrefab: {fileID: 788323534}
   battleTutorial: {fileID: 11400000, guid: 2f115fab14e7e2f4baa94ed0b76130b3, type: 2}
-  openingDialog: {fileID: 11400000, guid: 95df28e9fa21e0b46b9d9a3e69b67985, type: 2}
+  openingDialog:
+  - {fileID: 11400000, guid: 95df28e9fa21e0b46b9d9a3e69b67985, type: 2}
+  - {fileID: 11400000, guid: 6ad6cc4526c22fe46b59349e4c42794b, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   closingDialog: {fileID: 11400000, guid: 6e99afa91da55e947a1160cc8504f5e9, type: 2}
   victoryDialog:
   - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
   - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
   - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
+  - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
   lossDialog:
+  - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
   - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
   - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
   - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
@@ -3824,15 +3852,16 @@ MonoBehaviour:
   skillName: {fileID: 529811468}
   skillText: {fileID: 1835039178}
   playerSkills:
-  - 2,19,20,21,22,3,14
+  - 2,19,20,21,22,3,15
   - 2,7,8,9,16,17,18
-  - 2,10,11,12
-  - 2,3,4,5,6
-  - 0,1,2,13,14,15
+  - 2,10,11,12,24
+  - 2,3,4,5,6,23
+  - 0,1,2,13,14,23
   enemySkills:
-  - 0,14,13
-  - 
-  - 
+  - 0,25,25
+  - 1,20,13,14,15,23
+  - 2,23,24,5,6,7,8,9
+  - 0,1,2,4,19,15,9,16,11
   judgementParent: {fileID: 884881071}
   allyStars:
   - {fileID: 529940327}

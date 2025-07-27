@@ -16,4 +16,5 @@ MonoBehaviour:
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: Alright, that's everything, off to the stadium!
+    TextLine: Alright, that's everything, off to the stadium! Remember, lots of {flavor1}
+      and a little {flavor2}.

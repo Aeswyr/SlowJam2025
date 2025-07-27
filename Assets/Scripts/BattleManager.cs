@@ -371,6 +371,8 @@ public class BattleManager : MonoBehaviour
             sprite.sortingOrder = (activeChar < 5 ? allyActions : enemyActions) + 1;
             food.SetActive(true);
 
+            AudioManager.Instance.PlaySound("SHOP_BUY");
+
             if (activeChar < 5)
                 allyMeal.Add(skillId);
             else

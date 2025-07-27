@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Spiceshop_John
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into the spice shop to see none other than the head of The
+      Slop, John Greyman.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: He sees you and smiles. You walk over.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: He sees you and smiles. You walk over.
+  - Sprite: {fileID: -2469648081611502102, guid: 11da62ba62b3c594c80b12be95b0262b, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: Ah, my beloved mentor, Cimino.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(I did not ever agree to be this guy\u2019s mentor\u2026)"
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "I\u2019m here studying up on my seasonings."
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "I\u2019ve been tasting them individually to help to develop my pallet."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I see.
+  - Sprite: {fileID: -2469648081611502102, guid: 11da62ba62b3c594c80b12be95b0262b, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "I never realized just how salty salt is\u2026 like it\u2019s SO salty.
+      And sugar is so so sweet!"
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(You\u2019re just figuring this out now?)"
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(I shouldn\u2019t be so harsh on him\u2026 He\u2019s a young guy just
+      starting out. We all have to start somewhere.)"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I was wondering\u2026"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: What was the deal with all the garbage you used in our battle?
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: Our dish?
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: We were going for something avant garde.
+  - Sprite: {fileID: -2764421652818315067, guid: ccebf1b838cba5145ae9d30712212ce0, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: The competition is all about creativity. For some reason the judges
+      never give us enough time to make actual dishes.
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "So we figured that if we made something truly unique, we might curry
+      favor from the judges.\r"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(Huh. That somehow makes more sense than I thought it would.)\r"
+  - Sprite: {fileID: -2469648081611502102, guid: 11da62ba62b3c594c80b12be95b0262b, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "It didn\u2019t work.\r"
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "But I do feel like by watching you and your team work I learned a
+      lot.\r"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019m glad.\r"
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "If I\u2019m being fully honest\u2026 I don\u2019t know that much about
+      cooking. We only made it into the competition this year because of my folk's
+      reputation.\r"
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(Yeah, I\u2019ve gathered.)"
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "The Slop was my folks\u2019 restaurant. They retired and handed it
+      over to me."
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: I actually wanted to write thriller books.
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: "But my folks would take me to your restaurant a lot, both back when
+      you were working at La Tableau and Cimino\u2019s. I\u2019ve been effectively
+      studying your work my whole life."
+  - Sprite: {fileID: -2469648081611502102, guid: 11da62ba62b3c594c80b12be95b0262b, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: Once I took over, it became my mission to make food that was as exciting
+      as yours was.
+  - Sprite: {fileID: -8162386509176808199, guid: 70c53f2d1ff446f4985f87bc81ec724d, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: I hope one day I can do that.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(Damn... I wasn\u2019t expecting that.)"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: Well, I wish you luck.
+  - Sprite: {fileID: -7691003574300078770, guid: 1d6196abfcd4e1a4c81815a956ac4e42, type: 3}
+    IsRight: 1
+    SpeakerName: John Greyman
+    TextLine: Thanks. I hope next year when I come to face you, I can make something
+      really great.

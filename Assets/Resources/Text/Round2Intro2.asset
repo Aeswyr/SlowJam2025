@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
-  m_Name: DialogConversation
+  m_Name: Round2Intro2
   m_EditorClassIdentifier: 
   conversation:
   - Sprite: {fileID: 0}

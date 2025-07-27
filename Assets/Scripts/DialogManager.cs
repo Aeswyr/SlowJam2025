@@ -35,15 +35,27 @@ public class DialogManager : Singleton<DialogManager>
             foreach (var image in speakerSprites)
             {
                 image.sprite = line.Sprite;
-                image.SetNativeSize();
+                if (line.Sprite == null) {
+                    image.color = Color.clear;
+                } else {
+                    image.color = Color.white;
+                    image.SetNativeSize();
+                }
             }
             foreach (var name in speakerNames)
-                    name.text = line.SpeakerName;
+            {
+                name.transform.parent.gameObject.SetActive(!string.IsNullOrEmpty(line.SpeakerName));
+                name.text = line.SpeakerName;
+                Canvas.ForceUpdateCanvases();
+            }
 
             speakers[0].SetActive(!line.IsRight);
             speakers[1].SetActive(line.IsRight);
 
-            yield return PrintTextBox(line.TextLine);
+            string text = line.TextLine;
+            text = text.Replace("{flavor1}", Save.majorFlavor.ToString());
+            text = text.Replace("{flavor2}", Save.minorFlavor.ToString());
+            yield return PrintTextBox(text);
 
             yield return new WaitUntil(() => next);
             next = false;

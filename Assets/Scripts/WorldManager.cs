@@ -8,15 +8,43 @@ public class WorldManager : MonoBehaviour
     [SerializeField] private DialogConversation[] grocerDialog;
     [SerializeField] private DialogConversation[] bakerDialog;
     [SerializeField] private DialogConversation[] spiceDialog;
-
+    [SerializeField] private DialogConversation flavorDialog;
+    [SerializeField] private DialogConversation tutorialDialog;
 
 
     public void Start()
     {
         if (openingDialog[Save.day] != null)
         {
-            DialogManager.Instance.StartDialogSequence(openingDialog[Save.day]);
+            DialogManager.Instance.StartDialogSequence(openingDialog[Save.day], Save.day == 0 ? RunTutorial : AnnounceFlavors);
         }
+        else
+        {
+            AnnounceFlavors();
+        }
+    }
+
+    private void RunTutorial()
+    {
+        DialogManager.Instance.StartDialogSequence(tutorialDialog, AnnounceFlavors);
+    }
+
+    private void AnnounceFlavors()
+    {
+        if (Save.day == 0)
+        {
+            Save.majorFlavor = Flavor.UMAMI;
+            Save.minorFlavor = Flavor.SOUR;
+        }
+        else
+        {
+            Save.majorFlavor = (Flavor)Random.Range(0, (int)Flavor.MAX);
+            do
+            {
+                Save.minorFlavor = (Flavor)Random.Range(0, (int)Flavor.MAX);
+            } while (Save.minorFlavor == Save.majorFlavor);
+        }
+        DialogManager.Instance.StartDialogSequence(flavorDialog);
     }
 
     public void OnProducePressed()

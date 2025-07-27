@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDialog:
-  - {fileID: 11400000, guid: e7a9c4490e6fa664b8c52fbbf05400df, type: 2}
+  - {fileID: 11400000, guid: b9ecd3f8d30f56d4cb27bbb652825abf, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   butcherDialog:
@@ -1088,6 +1088,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  flavorDialog: {fileID: 11400000, guid: 02655c1f151a93b4289b2126abcd48f3, type: 2}
+  tutorialDialog: {fileID: 11400000, guid: e7a9c4490e6fa664b8c52fbbf05400df, type: 2}
 --- !u!4 &1388348241
 Transform:
   m_ObjectHideFlags: 0

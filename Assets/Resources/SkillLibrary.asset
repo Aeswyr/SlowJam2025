@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb29bb04fbcd6143834d7e34d633b6c, type: 3}
+  m_Name: SkillLibrary
+  m_EditorClassIdentifier: 
+  skills:
+  - Name: Kick
+    Sprite: {fileID: -1858395387658665622, guid: 155cee242bd41134fb6abc2468532383, type: 3}
+    IsFood: 0
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: Throw
+    Sprite: {fileID: -1858395387658665622, guid: 632881681bab706419de13f5e2231a63, type: 3}
+    IsFood: 0
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: Guard
+    Sprite: {fileID: -1858395387658665622, guid: 6b33f599b68753348868167c988ae6f4, type: 3}
+    IsFood: 0
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: Bread
+    Sprite: {fileID: -1858395387658665622, guid: cfe176829fec1524594623fc7524b02d, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 1
+      Salty: 1
+      Sour: 0
+      Bitter: 1
+  - Name: Noodles
+    Sprite: {fileID: -1858395387658665622, guid: c8b3e37cca3a32f4783f878f01382bea, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 1
+      Sweet: 0
+      Salty: 1
+      Sour: 0
+      Bitter: 1
+  - Name: Pie Crust
+    Sprite: {fileID: -1858395387658665622, guid: df92a9ab7801dfa4c99d050e91731e5b, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 2
+      Salty: 1
+      Sour: 0
+      Bitter: 0
+  - Name: Pie Topper
+    Sprite: {fileID: -1858395387658665622, guid: f4e461eca92d2574690b5777caf0f5a8, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 2
+      Salty: 1
+      Sour: 0
+      Bitter: 0
+  - Name: Cherry
+    Sprite: {fileID: -1858395387658665622, guid: f72d10d36a9095b42b3bdd19d0f80380, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 1
+      Salty: 0
+      Sour: 1
+      Bitter: 1
+  - Name: Lemon
+    Sprite: {fileID: -1858395387658665622, guid: 192eeac3623de404a9a5c8dbd516b28a, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 3
+      Bitter: 0
+  - Name: Orange
+    Sprite: {fileID: -1858395387658665622, guid: e73a53640960f484694df4a0bd83c5fb, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 2
+      Salty: 0
+      Sour: 1
+      Bitter: 0
+  - Name: Gravy
+    Sprite: {fileID: -1858395387658665622, guid: 4985ba730e170bd46af40a6f4a6144eb, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 1
+      Sweet: 0
+      Salty: 1
+      Sour: 0
+      Bitter: 1
+  - Name: Tomato Sauce
+    Sprite: {fileID: -1858395387658665622, guid: 16ff0b8b64d147746a4849f383dc7923, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 1
+      Sweet: 0
+      Salty: 1
+      Sour: 1
+      Bitter: 0
+  - Name: Bechemel
+    Sprite: {fileID: -1858395387658665622, guid: 38803f3570c40cc4cb29f332d173290e, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 2
+      Sour: 1
+      Bitter: 0
+  - Name: Pepper
+    Sprite: {fileID: -1858395387658665622, guid: bcadb9a141448ad4ea3d5fb8cc73c489, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 3
+  - Name: Salt
+    Sprite: {fileID: -1858395387658665622, guid: a563e9aa1034cae44a201f39a762e619, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: Paprika
+    Sprite: {fileID: -1858395387658665622, guid: feff664018616dc48b582315aef205d9, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 1
+      Sweet: 1
+      Salty: 1
+      Sour: 1
+      Bitter: 1
+  - Name: Carrot
+    Sprite: {fileID: -1858395387658665622, guid: c1b5b51abe9d1ef42a05186122092ac9, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 1
+      Salty: 0
+      Sour: 0
+      Bitter: 2
+  - Name: Kale
+    Sprite: {fileID: -1858395387658665622, guid: 1c3be42fa7aa72242a50ba1b07ebdce4, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 1
+      Bitter: 2
+  - Name: Onion
+    Sprite: {fileID: -1858395387658665622, guid: d96b4eba4b780634b84cb21afde52c6d, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 0
+      Sweet: 1
+      Salty: 0
+      Sour: 0
+      Bitter: 2
+  - Name: Ground Meat
+    Sprite: {fileID: -1858395387658665622, guid: 720c79a4c5dcde14bbc4d360a8236f11, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 2
+      Sweet: 0
+      Salty: 1
+      Sour: 0
+      Bitter: 0
+  - Name: Meatball
+    Sprite: {fileID: -1858395387658665622, guid: f81e615517e6cf14fa50cb9e235026e9, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 2
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 1
+  - Name: Steak
+    Sprite: {fileID: -1858395387658665622, guid: b5fff78fc56a11e4685436ef12236190, type: 3}
+    IsFood: 1
+    flavors:
+      Umami: 3
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0
+  - Name: 
+    Sprite: {fileID: 0}
+    IsFood: 0
+    flavors:
+      Umami: 0
+      Sweet: 0
+      Salty: 0
+      Sour: 0
+      Bitter: 0

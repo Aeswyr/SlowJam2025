@@ -57,6 +57,7 @@ public class BattleManager : MonoBehaviour
     private int allyGuards, enemyGuards;
 
     private int round = 1;
+    private bool locked;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -127,6 +128,8 @@ public class BattleManager : MonoBehaviour
                 undo.GetComponent<Button>().onClick.AddListener(UndoAction);
                 skillButtons.Add(undo);
             }
+
+            locked = false;
         }
     }
 
@@ -146,6 +149,10 @@ public class BattleManager : MonoBehaviour
 
     public void UndoAction()
     {
+        if (locked)
+            return;
+        locked = true;
+
         skillQueue.RemoveAt(skillQueue.Count - 1);
         int index = activeChar - 1;
         if (index < 0)
@@ -155,6 +162,10 @@ public class BattleManager : MonoBehaviour
 
     public void AddAction(int actionId)
     {
+        if (locked)
+            return;
+        locked = true;
+
         skillQueue.Add(actionId);
         if (skillQueue.Count < 5)
         {
@@ -354,9 +365,9 @@ public class BattleManager : MonoBehaviour
                     List<int> meal = null;
                     Transform dish = null;
 
-                    if (activeChar < 5 && enemyMeal.Count > 0)
+                    if (activeChar < 5)
                     {
-                        if (enemyGuards > 0)
+                        if (enemyGuards > 0 || enemyMeal.Count == 0)
                         {
                             enemyGuards--;
                             enemyDish.transform.DOShakePosition(0.25f, vibrato: 50);
@@ -367,9 +378,9 @@ public class BattleManager : MonoBehaviour
                             dish = enemyDish;
                         }
                     }
-                    else if (activeChar >= 5 && allyMeal.Count > 0)
+                    else if (activeChar >= 5)
                     {
-                        if (allyGuards > 0)
+                        if (allyGuards > 0 || allyMeal.Count == 0)
                         {
                             allyGuards--;
                             allyDish.transform.DOShakePosition(0.25f, vibrato: 50);
@@ -386,10 +397,14 @@ public class BattleManager : MonoBehaviour
                         int target = Random.Range(0, meal.Count);
                         if (meal.Count > 0)
                         {
+                            
                             meal.RemoveAt(target);
                             var obj = dish.GetChild(target);
-                            obj.DOBlendableLocalRotateBy(360 * Vector3.forward, 0.5f);
-                            obj.DOBlendableLocalMoveBy(10 * Random.insideUnitCircle.normalized, 0.5f);
+                            dish.DOShakePosition(0.25f, strength:0.25f, vibrato: 20);
+                            var seq = DOTween.Sequence();
+                            seq.Append(obj.DOBlendableLocalRotateBy(180 * Vector3.forward, 0.5f));
+                            seq.Join(obj.DOBlendableLocalMoveBy(10 * Random.insideUnitCircle.normalized, 0.5f));
+                            seq.Play();
                             yield return new WaitForSeconds(0.5f);
                             Destroy(obj.gameObject);
                         }

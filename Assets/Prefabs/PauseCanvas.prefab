@@ -398,6 +398,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: IconButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5603335253215412458, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 65049b33fb10c4a4395fa51379f6c828, type: 3}
+    - target: {fileID: 7724102449245382350, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724102449245382350, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002884969988349141, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 5127802162216982002}
     - target: {fileID: 8002884969988349141, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -441,6 +457,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
   m_PrefabInstance: {fileID: 786607508070880536}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5127802162216982002 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5603335253215412458, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+  m_PrefabInstance: {fileID: 786607508070880536}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7087364407392561574
 PrefabInstance:
   m_ObjectHideFlags: 0

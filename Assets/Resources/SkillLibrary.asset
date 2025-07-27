@@ -211,6 +211,15 @@ MonoBehaviour:
       Salty: 0
       Sour: 0
       Bitter: 0
+  - Name: Ham
+    Sprite: {fileID: -1858395387658665622, guid: 86926a5383a49ef48a015c3bc87a50dd, type: 3}
+    IsFood: 0
+    flavors:
+      Umami: 2
+      Sweet: 1
+      Salty: 0
+      Sour: 0
+      Bitter: 0
   - Name: 
     Sprite: {fileID: 0}
     IsFood: 0

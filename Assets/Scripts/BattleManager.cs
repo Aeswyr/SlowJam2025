@@ -337,7 +337,7 @@ public class BattleManager : MonoBehaviour
             {
                 DialogManager.Instance.StartDialogSequence(victoryDialog[Save.day], () =>
                 {
-                    Save.day++;
+                    Save.day = (Save.day + 1) % 4;
                     SceneManager.LoadScene("WorldScene");
                 });
             }

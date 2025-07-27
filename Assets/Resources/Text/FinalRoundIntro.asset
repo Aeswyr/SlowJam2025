@@ -79,7 +79,7 @@ MonoBehaviour:
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: "I understand\r"
+    TextLine: "I understand.\r"
   - Sprite: {fileID: 5456741606888737884, guid: 7e41562dd4addf84b9ce516902df41f1, type: 3}
     IsRight: 1
     SpeakerName: Nahla

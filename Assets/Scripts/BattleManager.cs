@@ -217,6 +217,55 @@ public class BattleManager : MonoBehaviour
         }
     }
 
+    private int RateDish(List<int> dish)
+    {
+        int[] flavors = new int[(int)Flavor.MAX];
+        foreach (int id in dish)
+        {
+            var skill = skillLibrary.skills[id];
+            flavors[(int)Flavor.BITTER] += skill.flavors.Bitter;
+            flavors[(int)Flavor.SALT] += skill.flavors.Salty;
+            flavors[(int)Flavor.SOUR] += skill.flavors.Sour;
+            flavors[(int)Flavor.SWEET] += skill.flavors.Sweet;
+            flavors[(int)Flavor.UMAMI] += skill.flavors.Umami;
+        }
+
+        int score = 0;
+        if (flavors[(int)Save.majorFlavor] > 0)
+        {
+            score++;
+        }
+        if (flavors[(int)Save.majorFlavor] > 5)
+        {
+            score++;
+        }
+        if (flavors[(int)Save.minorFlavor] > 0)
+        {
+            score++;
+        }
+        if (flavors[(int)Save.majorFlavor] > flavors[(int)Save.minorFlavor])
+        {
+            score++;
+        }
+        bool majorFlavorLargest = true;
+        for (int i = 0; i < flavors.Length; i++)
+        {
+            if (i == (int)Save.majorFlavor)
+                continue;
+
+            if (flavors[i] >= flavors[(int)Save.majorFlavor])
+            {
+                majorFlavorLargest = false;
+                break;
+            }
+        }
+        if (majorFlavorLargest)
+        {
+            score++;
+        }
+        return score;
+    }
+
     private void StartJudgement()
     {
         foreach (var chara in characters)
@@ -226,8 +275,8 @@ public class BattleManager : MonoBehaviour
 
         IEnumerator JudgementSequence()
         {
-            int allyRating = Random.Range(0, 6);
-            int enemyRating = Random.Range(0, 6);
+            int allyRating = RateDish(allyMeal);
+            int enemyRating = RateDish(enemyMeal);
 
             judgementComic.gameObject.SetActive(true);
             foreach (var img in judgementAnimation)

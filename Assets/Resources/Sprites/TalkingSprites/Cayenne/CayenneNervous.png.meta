@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CayenneNervous_0: 3209416239649801980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3833,19 +3833,19 @@ MonoBehaviour:
   openingDialog:
   - {fileID: 11400000, guid: 95df28e9fa21e0b46b9d9a3e69b67985, type: 2}
   - {fileID: 11400000, guid: 6ad6cc4526c22fe46b59349e4c42794b, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: cc6813f0550c6c84ea170379debb865d, type: 2}
+  - {fileID: 11400000, guid: 1749b33a3f903c34cbebf7490194af97, type: 2}
   closingDialog: {fileID: 11400000, guid: 6e99afa91da55e947a1160cc8504f5e9, type: 2}
   victoryDialog:
   - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
-  - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
-  - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
-  - {fileID: 11400000, guid: 6925213b4891dcc4283824aaed18920d, type: 2}
+  - {fileID: 11400000, guid: 43029451c06b9ad4cbc9bc2cf1bd43db, type: 2}
+  - {fileID: 11400000, guid: ce1aea34503c5064a80e8314b58e813c, type: 2}
+  - {fileID: 11400000, guid: 7145696e1c78f4640bee345e5bc2f896, type: 2}
   lossDialog:
   - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
-  - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
-  - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
-  - {fileID: 11400000, guid: 3149e93e3ab867b4ca01bec1976ecd3c, type: 2}
+  - {fileID: 11400000, guid: 5d754a52dfc6600478d592e60cbf6978, type: 2}
+  - {fileID: 11400000, guid: 07804b28fe847c848b0462d9db062df9, type: 2}
+  - {fileID: 11400000, guid: 72fa664b811be094bb162c701238d282, type: 2}
   skillLibrary: {fileID: 11400000, guid: 467883ba7ebf21040b180d7aadeee29e, type: 2}
   skills: {fileID: 1550811118}
   skillButtonPrefab: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}

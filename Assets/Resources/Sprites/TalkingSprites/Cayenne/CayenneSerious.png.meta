@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CayenneSerious_0: -7340428700335851791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1084,7 +1084,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b9ecd3f8d30f56d4cb27bbb652825abf, type: 2}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   butcherDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
@@ -1092,11 +1094,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   bakerDialog:
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   spiceDialog:
+  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
   - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}

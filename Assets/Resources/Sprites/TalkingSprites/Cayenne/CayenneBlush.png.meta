@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CayenneBlush_0: -6429035053262269671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

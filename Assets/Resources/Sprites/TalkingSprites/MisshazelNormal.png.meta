@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MisshazelNormal_0: -2717102261507780302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

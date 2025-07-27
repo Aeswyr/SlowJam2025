@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NahlaNormal_0: 5456741606888737884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

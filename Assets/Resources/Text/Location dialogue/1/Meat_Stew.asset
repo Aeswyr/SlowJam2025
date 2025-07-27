@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Meat_Stew
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You run into your saucier, Stew, scanning the different cuts of meat
+      in your local meat shop.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Carmella! I didn\u2019t realize you\u2019d be here."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "How\u2019s the prep going, Stew."
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Can I be super real, Carmella?
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Uh, sure.
+  - Sprite: {fileID: -4568492087802265403, guid: 394019d898f6b1641be9a593fd77c691, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I\u2019m totally freakin out!"
+  - Sprite: {fileID: -4568492087802265403, guid: 394019d898f6b1641be9a593fd77c691, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I don\u2019t wanna let the team down. I\u2019m way less experienced
+      than all of you!"
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Stew, calm down.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: You work in the kitchen all the time.
+  - Sprite: {fileID: -2553459205453789510, guid: a4adcf941f799c6428f7b08176baa383, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Yeah, but this is on a stage in front of people!
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "When we\u2019re cooking in the kitchen, it\u2019s the same, you just
+      don\u2019t have to see your audience."
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Huh\u2026"
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I hadn\u2019t really thought of that."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Besides, you got to remember it\u2019s not just you up there."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "We\u2019re all up on that stage together. Just do your best. We can
+      always help you clean up any messes."
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Haha. Yeah.
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Remember when I was training after work with you and Basil trying to
+      make bechamel for the first time. I totally kept wrecking the flavor. Way too
+      salty.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: But then you came in and helped to balance it with just a little bit
+      of sourness.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Exactly. We\u2019ve always got your back."
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Thanks Carmella. I\u2019ll do my best."

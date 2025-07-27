@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: BattleTutorial
   m_EditorClassIdentifier: 
   conversation:
-  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
-    IsRight: 0
-    SpeakerName: Carmella
-    TextLine: Time to get cooking team. You know what to do.
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: Remember, each of you brings your own skillset to the dish, be creative,
-      but keep the flavors in line with what the judge wants.
-  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    TextLine: Alright everyone, let's get this show on the road.
+  - Sprite: {fileID: 0}
     IsRight: 0
-    SpeakerName: Carmella
-    TextLine: And keep in mind, anything we add from the dish will draw from our
-      ingredients.
-  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    SpeakerName: 
+    TextLine: Each of your teammates brings their own skillset to the dish, be creative,
+      but keep the flavors in line with what the judges want.
+  - Sprite: {fileID: 0}
     IsRight: 0
-    SpeakerName: Carmella
-    TextLine: Finally, we've only got three rounds to make the dish, so work fast!
+    SpeakerName: 
+    TextLine: Use your ingredients to try to balance the different flavors to the
+      judges taste.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You have three rounds to make the dish, so work fast! Good luck!

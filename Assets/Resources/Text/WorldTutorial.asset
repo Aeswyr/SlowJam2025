@@ -16,15 +16,15 @@ MonoBehaviour:
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: Alright team, time to prepare for the tournament. First, on the list,
-      shopping!
+    TextLine: It's time to get some shopping done before the competition. Better
+      make it fast.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Tap one of the shops to visit that location. You might find a clue
+      to help you use some of your ingedients while you shop.
   - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: Tap one of the shops to visit. We'll be able to get ingredients for
-      the upcoming round.
-  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
-    IsRight: 0
-    SpeakerName: Carmella
-    TextLine: Remember, we only have time for one shopping trip each day so make
-      the most of it.
+    TextLine: We only have time for one shopping trip each day so make the most of
+      it.

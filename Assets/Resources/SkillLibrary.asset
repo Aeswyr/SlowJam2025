@@ -145,7 +145,7 @@ MonoBehaviour:
     flavors:
       Umami: 0
       Sweet: 0
-      Salty: 0
+      Salty: 3
       Sour: 0
       Bitter: 0
   - Name: Paprika
@@ -192,7 +192,7 @@ MonoBehaviour:
       Sweet: 0
       Salty: 1
       Sour: 0
-      Bitter: 0
+      Bitter: 1
   - Name: Meatball
     Sprite: {fileID: -1858395387658665622, guid: f81e615517e6cf14fa50cb9e235026e9, type: 3}
     IsFood: 1
@@ -217,7 +217,7 @@ MonoBehaviour:
     flavors:
       Umami: 2
       Sweet: 1
-      Salty: 0
+      Salty: 1
       Sour: 0
       Bitter: 0
   - Name: Sugar

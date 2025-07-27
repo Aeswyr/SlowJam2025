@@ -39,7 +39,7 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: 
     TextLine: Across the stage, Nahla and her team talk. She sees you looking and
-      the two of you appreach the center stage.
+      the two of you approach the center stage.
   - Sprite: {fileID: -5718124716182479902, guid: 286f4f219ea05b247a91cbb903e703fd, type: 3}
     IsRight: 1
     SpeakerName: Nahla

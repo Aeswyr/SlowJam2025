@@ -73,7 +73,7 @@ MonoBehaviour:
     IsRight: 1
     SpeakerName: Cayenne
     TextLine: From what I heard, she and her team have been making good progress.
-      You too might have to cross paths.
+      You two might have to cross paths.
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella

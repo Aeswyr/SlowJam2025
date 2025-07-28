@@ -31,8 +31,13 @@ public class AudioManager : Singleton<AudioManager>
         Debug.Log("Loaded the following sfx:\n" + debugOutput);
     }
 
-    public void PlaySound(string name, AudioMode mode = AudioMode.ONESHOT)
+    public void PlaySound(string name, AudioMode mode = AudioMode.ONESHOT, float pitch = 1)
     {
+        if (!soundLib.ContainsKey(name)) {
+            Debug.LogWarning($"Attempted to play sound with name {name}. Sound does not exist");
+            return;
+        }
+
         var sound = soundLib[name];
 
         var source = sources[0];
@@ -45,36 +50,30 @@ public class AudioManager : Singleton<AudioManager>
             }
         }
 
-        if (sound != null)
+        source.pitch = pitch;
+
+        switch (mode)
         {
-            switch (mode)
-            {
-                case AudioMode.ONESHOT:
-                    source.PlayOneShot(sound);
-                    break;
-                case AudioMode.SINGLE:
-                    foreach (var cur in sources)
+            case AudioMode.ONESHOT:
+                source.PlayOneShot(sound);
+                break;
+            case AudioMode.SINGLE:
+                foreach (var cur in sources)
+                {
+                    if (cur.clip == sound)
                     {
-                        if (cur.clip == sound)
-                        {
-                            source = cur;
-                            break;
-                        }
+                        source = cur;
+                        break;
                     }
+                }
 
-                    source.clip = sound;
-                    source.Play();
-                    break;
-                case AudioMode.MUSIC:
-                    musicSource.clip = sound;
-                    musicSource.Play();
-                    break;
-            }
-
-        }
-        else
-        {
-            Debug.LogWarning($"Attempted to play sound with name {name}. Sound does not exist");
+                source.clip = sound;
+                source.Play();
+                break;
+            case AudioMode.MUSIC:
+                musicSource.clip = sound;
+                musicSource.Play();
+                break;
         }
     }
 }

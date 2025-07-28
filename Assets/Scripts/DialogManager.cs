@@ -73,9 +73,13 @@ public class DialogManager : Singleton<DialogManager>
         {
             if (next)
             {
+                AudioManager.Instance.PlaySound("text_blip");
                 next = false;
                 break;
             }
+
+            if (i % 4 == 0)
+                AudioManager.Instance.PlaySound("text_blip");
 
             textBox.text = text.Substring(0, i);
 

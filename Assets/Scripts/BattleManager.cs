@@ -333,10 +333,11 @@ public class BattleManager : MonoBehaviour
             int enemyRating = RateDish(enemyMeal);
 
             judgementComic.gameObject.SetActive(true);
+            AudioManager.Instance.PlaySound("drumroll");
             foreach (var img in judgementAnimation)
             {
                 judgementComic.sprite = img;
-                yield return new WaitForSeconds(1.5f);
+                yield return new WaitForSeconds(1.2f);
             }
             judgementComic.gameObject.SetActive(false);
 
@@ -352,6 +353,13 @@ public class BattleManager : MonoBehaviour
                 if (enemyRating >= i)
                 {
                     enemyStars[i - 1].sprite = star;
+                }
+
+                if (enemyRating >= i || allyRating >= i) {
+                    AudioManager.Instance.PlaySound("timpani", pitch: 0.9f + 0.1f * i);
+                    AudioManager.Instance.PlaySound("chime", pitch: 0.9f + 0.1f * i);
+                    if (i == 1)
+                        AudioManager.Instance.PlaySound("applause");
                 }
 
                 yield return new WaitForSeconds(0.5f + 0.2f * i);
@@ -383,7 +391,7 @@ public class BattleManager : MonoBehaviour
 
         skillText.text = skill.Name;
         LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)skillName.transform);
-        skillName.transform.DOMove(skillTarget.position, 0.5f);
+        skillName.transform.DOMove(skillTarget.position, 0.5f).SetEase(Ease.OutCirc);
         yield return new WaitForSeconds(0.5f);
 
         if (skill.IsFood)
@@ -395,7 +403,7 @@ public class BattleManager : MonoBehaviour
             sprite.sortingOrder = (activeChar < 5 ? allyActions : enemyActions) + 1;
             food.SetActive(true);
 
-            AudioManager.Instance.PlaySound("splat");
+            AudioManager.Instance.PlaySound("splat", pitch: 1 + UnityEngine.Random.Range(-0.3f, 0.3f));
 
             if (activeChar < 5)
                 allyMeal.Add(skillId);
@@ -498,9 +506,10 @@ public class BattleManager : MonoBehaviour
 
                         food.transform.position = startPos;
                         food.transform.rotation = Quaternion.Euler(0, 0, 180);
-                        
+
                         var seq = DOTween.Sequence();
-                        
+
+                        AudioManager.Instance.PlaySound("throw");
                         seq.Append(food.transform.DOMoveX(endPos.x, 1f).SetEase(Ease.Linear));
                         seq.Join(food.transform.DOBlendableRotateBy(180 * Vector3.forward, 1f));
                         seq.Join(food.transform.DOMoveY(startPos.y + 5, 0.5f).SetEase(Ease.OutQuad));
@@ -508,6 +517,7 @@ public class BattleManager : MonoBehaviour
                         seq.Play();
 
                         yield return new WaitForSeconds(1f);
+                        AudioManager.Instance.PlaySound("throw_land");
                     }
                     break;
                 case 2: // guard
@@ -524,7 +534,7 @@ public class BattleManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        skillName.transform.DOMove(skillStartingPos, 0.5f);
+        skillName.transform.DOMove(skillStartingPos, 0.5f).SetEase(Ease.InCirc);
 
         yield return new WaitForSeconds(0.5f);
     }

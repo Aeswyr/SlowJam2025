@@ -1925,7 +1925,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 64}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529811470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4736,7 +4736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -32}
+  m_AnchoredPosition: {x: 0, y: -48}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1656988742
@@ -5172,7 +5172,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 6, y: -16}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 86.66, y: 20}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1835039177
 MonoBehaviour:
@@ -6490,6 +6490,10 @@ PrefabInstance:
     - target: {fileID: 1777036688136311876, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205369233740354641, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_Pitch
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

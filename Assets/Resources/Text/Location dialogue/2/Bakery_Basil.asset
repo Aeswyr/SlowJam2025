@@ -12,4 +12,228 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Bakery_Basil
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You run into Basil resting at the cafe with a cup of coffee. They smile
+      at you and gesture you over. You sit down across from Basil.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "So\u2026 first round."
+  - Sprite: {fileID: 8673767462055681126, guid: 98c2ce8625b4bf54baf713b035246268, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Can you seriously believe we went up against that?
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Like, I\u2019m almost certain we could have turned in an empty dish
+      and it would\u2019ve done just as well as the clown car we were up against."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Yeah, I wish I knew what all that was about.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Perhaps if you had gone to the spice shop you could have answered that
+      for yourself... but also why the hell would you want to do that to yourself.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Hey, on the bright side, if we\u2019re up against THAT every round
+      we\u2019re totally going to snatch it."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: Basil snickers, but their leg is tapping violently under the table.
+      More violently than usual.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "What\u2019s going on?"
+  - Sprite: {fileID: 8673767462055681126, guid: 98c2ce8625b4bf54baf713b035246268, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: What? Nothing.
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Hey, here\u2019s a story for you that I just remembered fresh off
+      the old dome."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Back when I was in college- before culinary school that is, we had
+      this contest in my college dorm.
+  - Sprite: {fileID: 8673767462055681126, guid: 98c2ce8625b4bf54baf713b035246268, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Eat a whole onion.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Guess who won?
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Considering the only person I could possibly know in this story is
+      you\u2026 I\u2019m going to guess-"
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "ME! Honestly, wasn\u2019t so bad. Onion is a great food. Sure it\u2019s
+      mostly bitter, but it\u2019s also got just a tad of sweet in there to keep
+      it interesting. Guess that\u2019s why they got layers\u2026 because they have\u2026
+      layers\u2026 depth\u2026 whatever\u2026 movie reference."
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "layers\u2026 depth\u2026"
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "whatever\u2026 movie reference."
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Plus it\u2019s a great way to help you determine if your knife is
+      getting dull. If I start crying it\u2019s time to sharpen my weapon."
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Okay you\u2019re talking a mile a minute, slow down."
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: Basil sighs.
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Sorry... it's just-
+  - Sprite: {fileID: 278343528605485409, guid: b51e91035be7c0945958aeda234f4cf9, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Ruben just texted me\u2026 the team we\u2019re going up against next
+      round\u2026 it\u2019s The Spice Pals."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "The Spice Pals is a well known food truck operated by none other than
+      an ex of Basli\u2019s."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: An ex whom they are not on good terms with.
+  - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Lovely. It\u2019s been a while since we\u2019ve seen Cayenne. No wonder
+      she\u2019d just decide to pop up this year again."
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Last year we were still dating, which was already super awkward, but
+      this time\u2026"
+  - Sprite: {fileID: 278343528605485409, guid: b51e91035be7c0945958aeda234f4cf9, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I just don\u2019t get it. She broke up with me completely out of nowhere.
+      I thought everything was fine\u2026"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Basil\u2019s grip tightens on their mug."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019s not your fault. If she couldn\u2019t communicate how she
+      was feeling to you like an adult, she wasn\u2019t ready to be in a relationship
+      to begin with."
+  - Sprite: {fileID: 7819156787900122927, guid: e1e3f8272ad52de478fa08c2a8296d5b, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Yeah yeah, I know.
+  - Sprite: {fileID: 7819156787900122927, guid: e1e3f8272ad52de478fa08c2a8296d5b, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Still hard though\u2026 to not know."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I understand...
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "A long time ago, I had to split with someone I was close to\u2026
+      I was immature about it too. I didn\u2019t even tell her why I was leaving
+      or where to. I still regret it. I bet Cayenne is going to regret how she treated
+      you. If not now, then eventually."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I bet Cayenne is going to regret how she treated you. If not now, then
+      eventually.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: You mean Nahla, your friend from La Tableau?
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Your face heats up and Basil laughs.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I\u2019m pretty sure you told me the story when the break up happened
+      to calm me down."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Great.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Was surprisingly mushy for you. In fact, you\u2019ve been getting
+      surprisingly feeling all of a sudden."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I think you all are just wearing me down. I\u2019m getting old with
+      all the stress of managing you hooligans."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Okay old woman, reel it in. I can feel my hair greying from your harrowing
+      tales.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You both laugh.
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "So, I gotta ask\u2026"
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: You and Nahla.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "...Did you two, like\u2026 hook up?"
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Bye Basil.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Oh come on, don\u2019t run away like that, boss! You can\u2019t just
+      leave me on a cliff hanger!"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You leave, ready to avoid that conversation for the rest of your life.

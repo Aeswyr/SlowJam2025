@@ -371,7 +371,7 @@ public class BattleManager : MonoBehaviour
             sprite.sortingOrder = (activeChar < 5 ? allyActions : enemyActions) + 1;
             food.SetActive(true);
 
-            AudioManager.Instance.PlaySound("SHOP_BUY");
+            AudioManager.Instance.PlaySound("splat");
 
             if (activeChar < 5)
                 allyMeal.Add(skillId);
@@ -418,7 +418,7 @@ public class BattleManager : MonoBehaviour
                         int target = UnityEngine.Random.Range(0, meal.Count);
                         if (meal.Count > 0)
                         {
-
+                            AudioManager.Instance.PlaySound("kick");
                             meal.RemoveAt(target);
                             var obj = dish.GetChild(target);
                             dish.DOShakePosition(0.25f, strength: 0.25f, vibrato: 20);

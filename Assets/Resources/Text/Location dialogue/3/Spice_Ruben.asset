@@ -12,4 +12,139 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Spice_Ruben
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You find Ruben outside the spice shop, leaning against the brick wall.
+      He nods to you cooly.
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Carmella. Aqui.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk over and lean with him.
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Some round, huh? Those Spice Pals\u2026"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Yeah. It was tough. How do you feel?
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Exhausted, but I\u2019ll manage."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Ruben looks at the ground.
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I never thought I\u2019d be here."
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: The spice shop?
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Haha, no, I mean competing in Culinary Clash.
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "We\u2019ve done it before though, what\u2019s different this time."
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I don\u2019t know\u2026"
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I got a call from my family. That\u2019s probably what did it."
+  - Sprite: {fileID: -1902968083912694966, guid: 810509fa8dd4b3d44810c1c26657177a, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "It\u2019s weird\u2026 My parents called to tell me they heard I was
+      competing and were proud. I mean, they still complained I wasn't doing any
+      of the cooking, but still."
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Wait, they didn\u2019t know about the previous years?"
+  - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "No way. Like I\u2019d tell them."
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I was the worst cook in our family. They didn\u2019t let me work at
+      the restaurant because of it."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I didn\u2019t know that your parents owned a restaurant."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Yeah, a bit nepotism of me, right?
+  - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Or it would be if they\u2019d given me a job, but they threw me out
+      of it after I got out of high school. Told me to find something I was good
+      at."
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: But I love the restaurant life.
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I just don\u2019t think they saw the service side as meaningful work,
+      but without service, you don\u2019t get the same experience."
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "And even though I\u2019m still a terrible cook\u2026 I like being
+      part of the world."
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Just the other day Stew was practicing their gravy recipe and tried
+      to teach it to me.
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: His was perfectly balanced with umami, salt, and bitter.
+  - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Mine was completely bitter\u2026"
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Because I burnt it.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The two of you laugh.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Anyway, that\u2019s enough chatter out of me. Let\u2019s go in and
+      get our supplies."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Let\u2019s go."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The two of you head inside and collect your spice restock, hustling
+      with your heavy boxes all the way back to the venue kitchen.

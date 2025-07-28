@@ -12,4 +12,129 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Spice_Basil
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into the spice shop to see Basil hanging around, staring endlessly
+      at the jars.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Basil.
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I can\u2019t believe we\u2019re really here."
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I\u2019m getting jitters just thinking about it."
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "\u2026 The spices?"
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I\u2019m obviously talking about the competition."
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Oh\u2026 Right\u2026 Obviously\u2026"
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(You say, staring directly at a wall of spices\u2026 Basil\u2026)"
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Do you think we\u2019re going to make it?"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Do you?
+  - Sprite: {fileID: 278343528605485409, guid: b51e91035be7c0945958aeda234f4cf9, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I literally just asked you! Don\u2019t reply to my question with a
+      question."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: But do you?
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Yeah. I mean- I think so.
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "I just\u2026 What if we mess up?"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019ll suck, but we mess up together, right."
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "It just feels like it\u2019s finally within reach."
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Everything we\u2019ve all worked for\u2026"
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: And at any moment we can just fail.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You pick up the jar of paprika and start filling up a bag with it.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You pick up the jar of paprika and start filling up a bag with it.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I love this paprika. It really helps balance out all the flavors.
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "And that\u2019s similar to\u2026 all of us\u2026 because we all balance
+      each other out\u2026"
+  - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: 'Whatever. Point is:'
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Cimino\u2019s wouldn\u2019t be anything without you Basil."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I might be the boss, but you keep us on the straight and narrow.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Win or lose, I\u2019m proud of you."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Yeah yeah, whatever. Stop getting all sappy.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Did it work? Do you feel better?
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Yeah I do. Thanks for trying. I know you\u2019re still unused to being
+      a feeling person, but\u2026 it suits you."
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Now let\u2019s pay for this and get out of here. We have a competition
+      to win."

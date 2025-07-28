@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Meat_Pepper
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You happen to stumble upon a frantic looking Pepper in the meat shop.
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Pepper is Cayenne\u2019s sous chef. You\u2019ve never officially met,
+      but you\u2019ve heard stories from Basil about them."
+  - Sprite: {fileID: 1910212025361742438, guid: c1da3532e79615e47b00dd79eccfb3cd, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: "Ohhh he\u2019s going to be steaming\u2026"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Hello. You must be Pepper.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Pepper swivels around.
+  - Sprite: {fileID: -1904058452665931407, guid: b90c48a5ad1d74f41b7fb72d189fd0b3, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: You! Carmella Cimino!
+  - Sprite: {fileID: 1910212025361742438, guid: c1da3532e79615e47b00dd79eccfb3cd, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Allspice said if I ran into you to tell you that you only won on a
+      technicality.
+  - Sprite: {fileID: 357523914216288400, guid: 348c9d80ab4dbdb4cb8f78273f06bce4, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: But I think you won fair and square, so congrats!
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Right\u2026"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Are you okay? You seemed troubled by something.
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: "Allspice thinks we lost because the meatballs \u201Cwere different\u201D."
+  - Sprite: {fileID: -1904058452665931407, guid: b90c48a5ad1d74f41b7fb72d189fd0b3, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: "He\u2019s the one with the big goggles-"
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Anyway I tied them after the round with Saffron-
+  - Sprite: {fileID: -1904058452665931407, guid: b90c48a5ad1d74f41b7fb72d189fd0b3, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: You know, double horns-
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: And Harissa-
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: She was wearing a mask and she has those gorgeous puffy pigtails-
+  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: She was wearing a mask and she has those gorgeous puffy pigtails-
+  - Sprite: {fileID: 1910212025361742438, guid: c1da3532e79615e47b00dd79eccfb3cd, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Anyway anyway-
+  - Sprite: {fileID: 1910212025361742438, guid: c1da3532e79615e47b00dd79eccfb3cd, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Point is, the meatballs were the same as always!
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Pepper pulls a tupperware container out of their bag and gives you
+      a taste. You try the meatball.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: This is really good. A lot of nice umami flavor and just a bit of bitter.
+  - Sprite: {fileID: 357523914216288400, guid: 348c9d80ab4dbdb4cb8f78273f06bce4, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: See! You get it.
+  - Sprite: {fileID: 1910212025361742438, guid: c1da3532e79615e47b00dd79eccfb3cd, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Allspice wanted me to come here and get the meat we used. He wants
+      to lab test it or something? He thinks someone is trying to sabotage us.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Sounds rough. I wish you luck with that.
+  - Sprite: {fileID: 357523914216288400, guid: 348c9d80ab4dbdb4cb8f78273f06bce4, type: 3}
+    IsRight: 1
+    SpeakerName: Pepper
+    TextLine: Thanks! Good luck with the rest of the competition!

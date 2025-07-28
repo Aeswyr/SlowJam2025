@@ -12,4 +12,137 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Grocer_PrinceLicorice
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "You are walking through the grocery store, but you\u2019re too focused
+      on the upcoming battle to watch where you\u2019re going."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You suddenly trip on a puddle, nearly slipping and falling until something-
+      no- someONE catches you.
+  - Sprite: {fileID: -6441437100187101825, guid: ef08655b0bff0574081d516945cb9be5, type: 3}
+    IsRight: 1
+    SpeakerName: 'Prince Liqourice '
+    TextLine: 'Fear not, mademoiselle. '
+  - Sprite: {fileID: -2788731135466954755, guid: cf4fa63c80f0eb64c9fc7fa2a4bf9a6e, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: "It\u2019s Prince Liquorice, the sous chef of Miss Hazel. He helps
+      you get back on your footing."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Thanks. I don\u2019t think we properly met."
+  - Sprite: {fileID: -6441437100187101825, guid: ef08655b0bff0574081d516945cb9be5, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liqourice
+    TextLine: No need, a woman of your renown is already known to Prince Licorice.
+      It is an honor.
+  - Sprite: {fileID: -6441437100187101825, guid: ef08655b0bff0574081d516945cb9be5, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: He bows deeply.
+  - Sprite: {fileID: 6900492502301130332, guid: 7f4b092b8372b304ebdcc33719daeab5, type: 3}
+    IsRight: 1
+    SpeakerName: PrinceLiquorice
+    TextLine: If I may be so bold, allow me to assist you in your shopping endeavors.
+      Miss Hazel instructed me to assist you if I saw you wandering alone in the
+      wilderness.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Does the grocery store count as wilderness?
+  - Sprite: {fileID: -6441437100187101825, guid: ef08655b0bff0574081d516945cb9be5, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liqourice
+    TextLine: Yes.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "\u2026"
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Sure, why not.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Prince Licorice takes the cart from you and begins to push. He runs
+      and then pushes off, riding the cart with zealous glee.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: He makes sure to not go too far so he can be there for you to put your
+      supplies in.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: When you two make it to the vegetables section, he rushes over and
+      grabs a bundle of kale.
+  - Sprite: {fileID: -2788731135466954755, guid: cf4fa63c80f0eb64c9fc7fa2a4bf9a6e, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liquorice
+    TextLine: May I suggest this? I feel it suits you perfectly.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Suits me?
+  - Sprite: {fileID: 6900492502301130332, guid: 7f4b092b8372b304ebdcc33719daeab5, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liquorice
+    TextLine: Yes. I feel this kale resonates with your very being.
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "\u2026 Right."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Prince Licorice holds the kale up triumphantly.
+  - Sprite: {fileID: -677885593506992140, guid: b028466c132a51d488601123f2812b0f, type: 3}
+    IsRight: 0
+    SpeakerName: Prince Liquorice
+    TextLine: This kale holds a great amount of bitterness.
+  - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Are you calling me bitter?
+  - Sprite: {fileID: 6900492502301130332, guid: 7f4b092b8372b304ebdcc33719daeab5, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liqourice
+    TextLine: Not in temperament, but I can sense a bitterness within you, perhaps
+      for yourself or the past.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You feel your stomach tighten.
+  - Sprite: {fileID: 8721451815687614169, guid: ac079faa86518864294b071f52c6b04a, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liquorice
+    TextLine: "It sours your mood, just as this kale\u2019s slight sour note."
+  - Sprite: {fileID: -2788731135466954755, guid: cf4fa63c80f0eb64c9fc7fa2a4bf9a6e, type: 3}
+    IsRight: 1
+    SpeakerName: Prince Liquorice
+    TextLine: But kale is strong! It fights off toxins in the body! It helps you
+      see better! And it even helps you poop good!
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: (How is that related?)
+  - Sprite: {fileID: 6900492502301130332, guid: 7f4b092b8372b304ebdcc33719daeab5, type: 3}
+    IsRight: 0
+    SpeakerName: Prince Liquorice
+    TextLine: "You may feel stuck now, but you are strong Madam Carmella. Never forget
+      that.\r\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "He places the kale in your hand then, with a flourish, he spins away\u2026
+      all the way out of the store\u2026\r\r"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You continue your shopping without incident.

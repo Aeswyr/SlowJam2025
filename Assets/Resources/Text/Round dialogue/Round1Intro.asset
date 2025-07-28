@@ -41,14 +41,14 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: 
     TextLine: 'The rest of your team consists of:'
-  - Sprite: {fileID: 0}
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
     IsRight: 0
     SpeakerName: 
     TextLine: Rose-Marie Baker, or just "Rose". She/her, 35; your patissier.
-  - Sprite: {fileID: 0}
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
     IsRight: 0
     SpeakerName: 
-    TextLine: Stew Bevridge, he/they, 27; your saucier.
+    TextLine: Stew Beveridge, he/they, 27; your saucier.
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 

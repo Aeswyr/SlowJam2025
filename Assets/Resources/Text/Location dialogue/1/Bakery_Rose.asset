@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Bakery_Rose
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into the bakery and the bell above the door jingles brightly.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Your patissier, Rose-Marie, is looking at the display case as she waits
+      for the supplies she ordered to come out. She hears your familiar footsteps
+      and turns to greet you.
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Well if it ain\u2019t Miss Cimino."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "How\u2019s the order looking, Rose."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Perfectly perfect. I made sure to give \u2018em the specifications
+      for the bread I wanted well ahead of time."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Gotta make sure the bread is the perfect subtle combo of sweet, salty,
+      and bitter.
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Otherwise they\u2019ll throw off the whole dish. Then I\u2019ll have
+      to come down here and have a word with someone."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "(Rose takes baking very seriously. It\u2019s her life passion to make
+      everyone else have the same deep appreciation for sweets that she does.)"
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Promise me we\u2019ll get lotsa sweet in our dishes when we can spare
+      it?"
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: I am so tired of people lookin' down on a delicious sweet treat.
+  - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "As if it\u2019s optional."
+  - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "I don\u2019t care if you havetah settle for a fruit parfait! Dessert
+      is mandatory. IT\u2019S AN ART!"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "We\u2019re lucky to have you with us Rose."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "You sure are \u2018Mella."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: (Never call me that again.)
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "And I\u2019m lucky to have the lot of ya."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "See ya in a bit. I gotta taste test the bread to make sure it\u2019s
+      perfect or it ain\u2019t comin\u2019 with."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019ll see you at the venue."

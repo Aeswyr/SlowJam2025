@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Spice_Basil
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "You run into Basil, your sous chef, in the spice shop. They\u2019re
+      holding a jar of black pepper."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Without a word. Basil holds the jar up to you, not even needing to
+      turn around to know it was you.
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Check this for me.
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You take a pinch of the pepper and taste it. Your face scrunches a
+      little.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Yup. Definitely good. I\u2019m getting that super bitter flavor with
+      the mild heat we\u2019re looking for."
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Just wanted to be sure.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Your nervous.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: How could you tell?
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: You just made me taste raw black pepper.
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Yeah. Maybe I am a little.
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: I just got a good feeling about this year, you know.
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "We\u2019ve been doing progressively better every year. I think that
+      this year we might actually make it all the way."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019m sure we will."
+  - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Though honestly, the whole thing is kind of confusing. I mean, we\u2019re
+      just throwing ingredients on the plate. That\u2019s not even cooking."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "No clue why it\u2019s like that. It\u2019s just always been that way."
+  - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "Yeah. I don\u2019t wanna try to say the culinary council has bullshit
+      rules, but\u2026"
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You nod.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Don\u2019t worry, I get it."
+  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: Anyway, want to help me carry these boxes full of heavy jars?
+  - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
+    IsRight: 1
+    SpeakerName: Basil
+    TextLine: "You know\u2026 since you actually work out?"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Pass em.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You and Basil carry the boxes back to the competition venue without
+      incident.

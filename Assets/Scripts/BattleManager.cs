@@ -22,6 +22,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private Transform allyDish;
     [SerializeField] private Transform enemyDish;
     [SerializeField] private GameObject foodPrefab;
+    [SerializeField] private Transform allyDefense;
+    [SerializeField] private Transform enemyDefense;
 
     [Header("Dialog")]
     [SerializeField] private DialogConversation battleTutorial;
@@ -70,6 +72,7 @@ public class BattleManager : MonoBehaviour
         gameOver.SetActive(false);
         judgementComic.gameObject.SetActive(false);
 
+        DrawDefense();
 
         var enemyTeam = enemies[Save.day].sprites;
         for (int i = 0; i < 5; i++) {
@@ -172,10 +175,19 @@ public class BattleManager : MonoBehaviour
             return;
         locked = true;
 
+        int skill = skillQueue[skillQueue.Count - 1];
         skillQueue.RemoveAt(skillQueue.Count - 1);
+
+        if (skill == 2)
+        {
+            allyGuards--;
+            DrawDefense();
+        }
+
         int index = activeChar - 1;
         if (index < 0)
             index = characters.Count - 1;
+
         ChangeActiveChar(index);
     }
 
@@ -186,31 +198,37 @@ public class BattleManager : MonoBehaviour
         locked = true;
 
         skillQueue.Add(actionId);
+
+
+        if (actionId == 2)
+        {
+            allyGuards++;
+            DrawDefense();
+        }
+            
+
         if (skillQueue.Count < 5)
         {
             NextChar();
         }
         else
         {
-            var options = enemySkills[Save.day].Split(',');
-            for (int i = 0; i < characters.Count - 5; i++)
-            {
-                skillQueue.Add(int.Parse(options[UnityEngine.Random.Range(0, options.Length)]));
-            }
-            selecting = false;
-            StartCoroutine(ExecuteTurn());
+            SetupCombatRound();
         }
+    }
 
-        for (int i = 0; i < skillQueue.Count; i++)
+    private void SetupCombatRound()
+    {
+        var options = enemySkills[Save.day].Split(',');
+        for (int i = 0; i < characters.Count - 5; i++)
         {
-            if (skillQueue[i] == 2)
-            {
-                if (i < 5)
-                    allyGuards++;
-                else
-                    enemyGuards++;
-            }
+            int skill = int.Parse(options[UnityEngine.Random.Range(0, options.Length)]);
+            skillQueue.Add(skill);
+            if (skill == 2)
+                enemyGuards++;
         }
+        selecting = false;
+        StartCoroutine(ExecuteTurn());
     }
 
     private IEnumerator ExecuteTurn()
@@ -240,6 +258,7 @@ public class BattleManager : MonoBehaviour
         {
             allyGuards = 0;
             enemyGuards = 0;
+            DrawDefense();
 
             round++;
             roundCount.text = round.ToString();
@@ -301,6 +320,11 @@ public class BattleManager : MonoBehaviour
         foreach (var chara in characters)
             chara.SetActive(false);
         judgementParent.SetActive(true);
+
+        enemyGuards = 0;
+        allyGuards = 0;
+        DrawDefense();
+
         StartCoroutine(JudgementSequence());
 
         IEnumerator JudgementSequence()
@@ -390,7 +414,9 @@ public class BattleManager : MonoBehaviour
                     {
                         if (enemyGuards > 0 || enemyMeal.Count == 0)
                         {
+                            AudioManager.Instance.PlaySound("block");
                             enemyGuards--;
+                            DrawDefense();
                             enemyDish.transform.DOShakePosition(0.25f, vibrato: 50);
                         }
                         else
@@ -403,7 +429,9 @@ public class BattleManager : MonoBehaviour
                     {
                         if (allyGuards > 0 || allyMeal.Count == 0)
                         {
+                            AudioManager.Instance.PlaySound("block");
                             allyGuards--;
+                            DrawDefense();
                             allyDish.transform.DOShakePosition(0.25f, vibrato: 50);
                         }
                         else
@@ -439,12 +467,16 @@ public class BattleManager : MonoBehaviour
                 case 1: // throw
                     if (activeChar < 5 && enemyGuards > 0)
                     {
+                        AudioManager.Instance.PlaySound("block");
                         enemyGuards--;
+                        DrawDefense();
                         enemyDish.transform.DOShakePosition(0.25f, vibrato: 50);
                     }
                     else if (activeChar >= 5 && allyGuards > 0)
                     {
+                        AudioManager.Instance.PlaySound("block");
                         allyGuards--;
+                        DrawDefense();
                         allyDish.transform.DOShakePosition(0.25f, vibrato: 50);
                     }
                     else
@@ -460,9 +492,26 @@ public class BattleManager : MonoBehaviour
                             allyMeal.Add(25);
                         else
                             enemyMeal.Add(25);
+
+                        Vector3 endPos = food.transform.position;
+                        Vector3 startPos = characters[activeChar].transform.position;
+
+                        food.transform.position = startPos;
+                        food.transform.rotation = Quaternion.Euler(0, 0, 180);
+                        
+                        var seq = DOTween.Sequence();
+                        
+                        seq.Append(food.transform.DOMoveX(endPos.x, 1f).SetEase(Ease.Linear));
+                        seq.Join(food.transform.DOBlendableRotateBy(180 * Vector3.forward, 1f));
+                        seq.Join(food.transform.DOMoveY(startPos.y + 5, 0.5f).SetEase(Ease.OutQuad));
+                        seq.Insert(0.5f, food.transform.DOMoveY(endPos.y, 0.5f).SetEase(Ease.InQuad));
+                        seq.Play();
+
+                        yield return new WaitForSeconds(1f);
                     }
                     break;
                 case 2: // guard
+                    AudioManager.Instance.PlaySound("defend");
                     break;
             }
         }
@@ -478,6 +527,15 @@ public class BattleManager : MonoBehaviour
         skillName.transform.DOMove(skillStartingPos, 0.5f);
 
         yield return new WaitForSeconds(0.5f);
+    }
+
+    private void DrawDefense()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            allyDefense.GetChild(i).gameObject.SetActive(allyGuards > i);
+            enemyDefense.GetChild(i).gameObject.SetActive(enemyGuards > i);
+        }
     }
 
     public void GameOverRetry()

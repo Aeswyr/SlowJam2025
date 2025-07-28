@@ -12,4 +12,200 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Grocer_Rose
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: You head to the grocery store to find Rose wandering around the produce
+      section.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Rose, how are you feeling after the first round?
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Rose, how are you feeling after the first round?
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: 
+    TextLine: "Rose doesn\u2019t turn to acknowledge you as she replies, eyes transfixed
+      on the fruits."
+  - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Well, maybe I would feel a bit more rambunctious if we hadn\u2019t
+      gone up against a couple a\u2019 loose chickens tossin\u2019 garbage all over
+      the kitchen."
+  - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Absolutely bafflin\u2019. Completely disrespectful."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019s just part of the competition, Rose. Don\u2019t take it personally."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Rose huffs a little.
+  - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "I just don\u2019t get why some people get into the kitchen, but don\u2019t
+      seem to have the same love for the art that I do!"
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "The whole dang thing feels so disrespectful. And those bright lights\u2026"
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019s not exactly a sensory friendly environment, is it?"
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "No it ain\u2019t."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "No it ain\u2019t."
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "It\u2019s like this Carmella- well, you know because you know me."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "But I\u2019ve been workin\u2019 hard my whole life to be the best
+      baker I can be."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: 'I was just a lil thing reading every baking book I could. '
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "And boy did I love baking. Took to it like water to flour in my mixin\u2019
+      bowl."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: It made the whole world feel right. Just me, the kitchen, and my ingredients.
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Bakin\u2019 makes way more sense than everything else in the world.
+      Life\u2019s all about gettin\u2019 things just right. Gotta keep everythin\u2019
+      balanced."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "And besides, no one cares about your hyperfixations bein\u2019 offputtin\u2019
+      to them if they\u2019re delicious."
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Not that it ain\u2019t still frustratin\u2019. "
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "But it definitely made my young years much easier when I started bakin\u2019."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "No one got weirded out by all my fidgetin\u2019 and me starin\u2019
+      at the wall while I talked to folks. No one called it rude because they saw
+      me as a baker."
+  - Sprite: {fileID: 6021605383733645999, guid: c5188274e065b4f46a287b31c4170e62, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Heck, ain\u2019t no good at southern hospitality, I guess"
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019s not fair that it was like that for you."
+  - Sprite: {fileID: 6021605383733645999, guid: c5188274e065b4f46a287b31c4170e62, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "No\u2026 it ain\u2019t fair."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019m still glad you were able to find something you enjoy so much."
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Thanks Carmella.
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "And thanks for lettin\u2019 me work for ya."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I mean, how could we say no when you showed up to the interview with
+      about a dozen different freshly made desserts.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "But in all seriousness, we don\u2019t just like you because you\u2019re
+      undeniably the most talented baker in the world."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "We like you because you\u2019re you. We wouldn\u2019t want anyone
+      else, Rose."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "It\u2019s not all about being useful in life to make you important.
+      You\u2019re important just because you\u2019re Rose. And Rose is an awesome
+      person to be."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Dang straight.
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Now I was thinkin\u2019 of grabbin\u2019 some citrus while I was here.
+      Maybe makin\u2019 a custard when we had some downtime. "
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Always testing, aren\u2019t you?"
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Don\u2019t you know it!"
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Now the lemons from this store are just downright sour, which I do
+      quite enjoy in my lemon tarts. Best in town I gotta say.
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "But you can\u2019t deny the satisfying sweetness of the orange."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "And it\u2019s got that little sour tang to it! What a queen!"
+  - Sprite: {fileID: -4031262166855826311, guid: 97fe0ad1071eb6e46b4d5ba923dd79bf, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Now I\u2019m cravin\u2019 orange."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Let\u2019s get a box of both and drag them back with us to the venue."
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Exactly my thought.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You both haul your citrus back to the venue and Rose regales you with
+      tails of her earliest baking experiences.

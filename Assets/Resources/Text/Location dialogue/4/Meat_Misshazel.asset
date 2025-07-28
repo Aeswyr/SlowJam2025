@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Meat_Misshazel
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into the meat shop and see Miss Hazel talking to the butcher.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Miss Hazel.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: She spins around and runs over, hugging you tight, then letting you
+      go with a pat on your shoulders.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Oh Carmella! Didn\u2019t think I would be seeing you so soon, darling!"
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: What are you getting?
+  - Sprite: {fileID: 2423580806339538250, guid: aaa112f385f9d724496e0091c89c12fb, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "I\u2019m actually picking up some steak."
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Not for me. Honey Baby has been craving some all week and I promised
+      her I\u2019d grab her some after the competition was over."
+  - Sprite: {fileID: -1490357679028025288, guid: b7bf9d8beb559b348883942bf028e978, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Didn\u2019t think it would be so soon, but c\u2019est la vie."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Sorry about that.
+  - Sprite: {fileID: 2423580806339538250, guid: aaa112f385f9d724496e0091c89c12fb, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "Oh you\u2019re just too sweet for this world."
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "No need to apologize, you won that fight all on your own merrit. Can\u2019t
+      clock that, babe.\r"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Let me help you out with getting that steak.
+  - Sprite: {fileID: -1490357679028025288, guid: b7bf9d8beb559b348883942bf028e978, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: UUUUHG. Thank you so much.
+  - Sprite: {fileID: -6455647531489756970, guid: e27e93ee14971bc4784226b34be7d0d1, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: "I\u2019ve been pescetarian for years, so I don\u2019t really know
+      what people want out of their steaks. They\u2019re all practically identical."
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Defending on how you prepare it and its fat content. No matter what,
+      they should at least have a very rich umami flavor at base. Even just some
+      salt and pepper can make a steak pretty good.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: But who wants a boring steak like that?
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Fat content is all in the marbling, right? That webby white stuff in
+      the meat?
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Exactly.
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: So which one do you recommend?
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You point Miss Hazel toward your favorite cut.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: That one should be perfect.
+  - Sprite: {fileID: 2423580806339538250, guid: aaa112f385f9d724496e0091c89c12fb, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Wow! What a specific and unamigious answer! Absolutely not one an audience
+      could apply whatever image of a meat cut they would want onto! Just one very
+      specific steak!
+  - Sprite: {fileID: -2717102261507780302, guid: edc6262177087b74faa7a8ca928647e5, type: 3}
+    IsRight: 1
+    SpeakerName: Miss Hazel
+    TextLine: Thank you so much, darling. And best of luck with your last round.
+      I hear Le Tableau and their head chef Nahla are tough competitors.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "Yeah\u2026 Thanks."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You head out as Miss Hazel orders her steak cut from the butcher. You
+      feel your stomach tie in knots, anxious for the round to come.

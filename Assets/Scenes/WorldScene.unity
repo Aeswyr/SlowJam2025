@@ -1180,23 +1180,23 @@ MonoBehaviour:
   - {fileID: 0}
   butcherDialog:
   - {fileID: 11400000, guid: 6b5f379e633ca7443a622ec059d0aff5, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 821e7a38b71385346bbacdf044bc2443, type: 2}
+  - {fileID: 11400000, guid: bff3e2b5fb0a9a84c8f5b004a9fe6276, type: 2}
   - {fileID: 0}
   grocerDialog:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 317876e73fc420d44b5ed67c9368c5b1, type: 2}
+  - {fileID: 11400000, guid: f9565745299a11f42aeca2d4fa5c7c8a, type: 2}
+  - {fileID: 11400000, guid: 5ab5d935a3c695148bd9b48c2f739158, type: 2}
   - {fileID: 0}
   bakerDialog:
   - {fileID: 11400000, guid: 6d9a406f21b43ca438e5e1c6fcd8833c, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 39058fc4e53f7f041879ed5c0d9d13e8, type: 2}
   - {fileID: 11400000, guid: 68838651d17171d4b8fbca8cdbf76d4c, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 92a1a352add144841ab0d2a0f3f0b37b, type: 2}
   spiceDialog:
   - {fileID: 11400000, guid: 7ad02e24e19890047b995da77dee04b7, type: 2}
   - {fileID: 11400000, guid: 481a5afe0fbd07a42b51944f7e252dda, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: accf6d5f10403b54fb5077be3a634e1f, type: 2}
   - {fileID: 0}
   flavorDialog: {fileID: 11400000, guid: 02655c1f151a93b4289b2126abcd48f3, type: 2}
   tutorialDialog: {fileID: 11400000, guid: e7a9c4490e6fa664b8c52fbbf05400df, type: 2}

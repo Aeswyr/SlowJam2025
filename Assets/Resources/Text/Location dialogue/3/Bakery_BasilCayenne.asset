@@ -25,14 +25,12 @@ MonoBehaviour:
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 
-    TextLine: "The two had dated for a while until they suddenly broke up. You never
-      pushed Basil for details partially because you didn\u2019t want them to be
-      uncomfortable, but also because you desperately did not want to know.\r"
+    TextLine: The two had dated for a few months until they suddenly split around
+      a year ago.
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 
-    TextLine: "You have very mixed feelings on Cayenne, but after she and Basil broke
-      up you weren\u2019t sad to get her out of your life.\r"
+    TextLine: "Now you're in the middle of the reconcile.\r"
   - Sprite: {fileID: 278343528605485409, guid: b51e91035be7c0945958aeda234f4cf9, type: 3}
     IsRight: 1
     SpeakerName: Basil
@@ -48,7 +46,8 @@ MonoBehaviour:
   - Sprite: {fileID: 278343528605485409, guid: b51e91035be7c0945958aeda234f4cf9, type: 3}
     IsRight: 1
     SpeakerName: Basil
-    TextLine: "Just going to keep yapping?\r"
+    TextLine: "Just going to keep yapping or do you actually plan on getting somewhere
+      with this?\r"
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 
@@ -95,7 +94,7 @@ MonoBehaviour:
   - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: Get it out Cayenne. Stop screwing around.
+    TextLine: Out with it, Cayenne. Stop screwing around.
   - Sprite: {fileID: 3209416239649801980, guid: d3706b87ea43f50458b7d6e45a0750b3, type: 3}
     IsRight: 1
     SpeakerName: Cayenne
@@ -105,7 +104,7 @@ MonoBehaviour:
     SpeakerName: Cayenne
     TextLine: "I wanted to say\u2026 I\u2019m sorry."
   - Sprite: {fileID: 8673767462055681126, guid: 98c2ce8625b4bf54baf713b035246268, type: 3}
-    IsRight: 0
+    IsRight: 1
     SpeakerName: 
     TextLine: 'Basil looks genuinely surprised.
 
@@ -164,7 +163,7 @@ MonoBehaviour:
   - Sprite: {fileID: 3209416239649801980, guid: d3706b87ea43f50458b7d6e45a0750b3, type: 3}
     IsRight: 1
     SpeakerName: Cayenne
-    TextLine: Yeah I am! I am! I get it!
+    TextLine: Yeah I am! I am! I get it! I won the damn lottery!
   - Sprite: {fileID: 7174837422180197096, guid: 9bb59bf3d4ac6094298909472a335ffa, type: 3}
     IsRight: 1
     SpeakerName: Cayenne
@@ -222,7 +221,7 @@ MonoBehaviour:
     IsRight: 1
     SpeakerName: 
     TextLine: Cayenne stares at the floor nervously.
-  - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
+  - Sprite: {fileID: 7174837422180197096, guid: 9bb59bf3d4ac6094298909472a335ffa, type: 3}
     IsRight: 1
     SpeakerName: Cayenne
     TextLine: "Again\u2026 I\u2019m really sorry Carmella. Please don\u2019t totally
@@ -248,10 +247,9 @@ MonoBehaviour:
   - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}
     IsRight: 1
     SpeakerName: Cayenne
-    TextLine: "Also\u2026 not being able to communicate about how I felt and lashing
-      out\u2026 I won\u2019t be doing that again."
+    TextLine: Also probably not gonna go dumping anyone over my ego again, either.
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
-    IsRight: 1
+    IsRight: 0
     SpeakerName: Carmella
     TextLine: Good.
   - Sprite: {fileID: -1011443289665869434, guid: 8922412b7d8b1194bad72e319d79878d, type: 3}

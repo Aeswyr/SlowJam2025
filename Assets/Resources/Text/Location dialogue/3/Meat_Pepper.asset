@@ -66,7 +66,7 @@ MonoBehaviour:
   - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
     IsRight: 1
     SpeakerName: Pepper
-    TextLine: Anyway I tied them after the round with Saffron-
+    TextLine: Anyway I tried them after the round with Saffron-
   - Sprite: {fileID: -1904058452665931407, guid: b90c48a5ad1d74f41b7fb72d189fd0b3, type: 3}
     IsRight: 1
     SpeakerName: Pepper
@@ -75,10 +75,6 @@ MonoBehaviour:
     IsRight: 1
     SpeakerName: Pepper
     TextLine: And Harissa-
-  - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
-    IsRight: 1
-    SpeakerName: Pepper
-    TextLine: She was wearing a mask and she has those gorgeous puffy pigtails-
   - Sprite: {fileID: 8577979403697111562, guid: 65786476cedfb734f935cc45c7082b30, type: 3}
     IsRight: 1
     SpeakerName: Pepper

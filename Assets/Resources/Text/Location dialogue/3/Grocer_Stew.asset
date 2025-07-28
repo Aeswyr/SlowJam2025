@@ -158,8 +158,8 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: Carmella
     TextLine: "There\u2019s always a place for you at Cimino\u2019s."
-  - Sprite: {fileID: 0}
-    IsRight: 0
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
     SpeakerName: 
     TextLine: Stew laughs happily.
   - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}

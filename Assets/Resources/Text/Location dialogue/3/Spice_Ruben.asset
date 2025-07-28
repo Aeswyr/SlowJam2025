@@ -38,8 +38,8 @@ MonoBehaviour:
     IsRight: 1
     SpeakerName: Ruben
     TextLine: "Exhausted, but I\u2019ll manage."
-  - Sprite: {fileID: 0}
-    IsRight: 0
+  - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
+    IsRight: 1
     SpeakerName: 
     TextLine: Ruben looks at the ground.
   - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
@@ -96,9 +96,9 @@ MonoBehaviour:
   - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
     IsRight: 1
     SpeakerName: Ruben
-    TextLine: "Or it would be if they\u2019d given me a job, but they threw me out
-      of it after I got out of high school. Told me to find something I was good
-      at."
+    TextLine: "Or it would be if they\u2019d given me a job, but they stopped letting
+      me help after I got out of high school. Told me to find something I was good
+      at. Told me I could do better than serving."
   - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
     IsRight: 1
     SpeakerName: Ruben
@@ -106,13 +106,13 @@ MonoBehaviour:
   - Sprite: {fileID: -7332601148624294324, guid: 56e8623641776df4385c4d4bac7209c9, type: 3}
     IsRight: 1
     SpeakerName: Ruben
-    TextLine: "I just don\u2019t think they saw the service side as meaningful work,
-      but without service, you don\u2019t get the same experience."
+    TextLine: They didn't see the service side as meaningful work, but without great
+      service you only get half the dining experience.
   - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
     IsRight: 1
     SpeakerName: Ruben
     TextLine: "And even though I\u2019m still a terrible cook\u2026 I like being
-      part of the world."
+      part of this world."
   - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
     IsRight: 1
     SpeakerName: Ruben

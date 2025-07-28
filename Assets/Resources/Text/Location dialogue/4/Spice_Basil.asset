@@ -45,7 +45,7 @@ MonoBehaviour:
   - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: "(You say, staring directly at a wall of spices\u2026 Basil\u2026)"
+    TextLine: "(You say, staring directly at a wall of spices\u2026)"
   - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
     IsRight: 1
     SpeakerName: Basil

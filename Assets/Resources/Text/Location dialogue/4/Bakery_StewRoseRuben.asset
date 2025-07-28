@@ -41,7 +41,7 @@ MonoBehaviour:
   - Sprite: {fileID: 0}
     IsRight: 0
     SpeakerName: 
-    TextLine: Rose cuts a slice of the quince and slides it to you as you sit at
+    TextLine: Rose cuts a slice of the quiche and slides it to you as you sit at
       the table. You take some silverware and test it.
   - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
     IsRight: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     IsRight: 1
     SpeakerName: Ruben
     TextLine: Ha. You gonna use me as a guinea pig?
-  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+  - Sprite: {fileID: -4031262166855826311, guid: 97fe0ad1071eb6e46b4d5ba923dd79bf, type: 3}
     IsRight: 1
     SpeakerName: Rose
     TextLine: "OOO! A fun challenge! I\u2019m in!"

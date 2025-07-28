@@ -35,7 +35,7 @@ MonoBehaviour:
   - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: "Thanks. I don\u2019t think we properly met."
+    TextLine: "Thanks. I don\u2019t think we've properly met."
   - Sprite: {fileID: -6441437100187101825, guid: ef08655b0bff0574081d516945cb9be5, type: 3}
     IsRight: 1
     SpeakerName: Prince Liqourice
@@ -133,7 +133,7 @@ MonoBehaviour:
     SpeakerName: Carmella
     TextLine: (How is that related?)
   - Sprite: {fileID: 6900492502301130332, guid: 7f4b092b8372b304ebdcc33719daeab5, type: 3}
-    IsRight: 0
+    IsRight: 1
     SpeakerName: Prince Liquorice
     TextLine: "You may feel stuck now, but you are strong Madam Carmella. Never forget
       that.\r\r"

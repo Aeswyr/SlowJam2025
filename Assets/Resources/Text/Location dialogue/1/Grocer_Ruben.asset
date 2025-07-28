@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Grocer_Ruben
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into your local grocery store to find your front of house
+      manager, Ruben.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "He\u2019s examining some produce. "
+  - Sprite: {fileID: -1902968083912694966, guid: 810509fa8dd4b3d44810c1c26657177a, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk up to examine the food with him, surprising him.
+  - Sprite: {fileID: 7983450801012658530, guid: 94c656602b4cbc7498f408a2890de89f, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Ah! Carmella!
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Geez, you gotta warn a guy before you sneak up on him.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Apologise. So, what have we got?
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: I found this nice ripe bag of cherries.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Observe the deep, succulent red. Absolutely perfect, right?
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You take one out of the bag and taste it.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "These cherries have nice sweet, sour, and bitter notes, don\u2019t
+      you think?"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I do think.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: You ready for the competition?
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I\u2019m not sweating over it."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: With a team like us, our win is assured.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: You say that every year.
+  - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: And all those other years the judges were wrong.
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "You\u2019ve got to admit, we\u2019ve pushed ourselves way harder.
+      The losing has helped us improve."
+  - Sprite: {fileID: 3621156352820190448, guid: 0f7ad00c5effa8c408fca170da7755f8, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I guess. It\u2019s still frustrating to work so hard and not win."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I get it. This time for sure.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Absolutely.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Now let\u2019s snag these cherries and get out of here."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The two of you buy the cherries and head to the venue.

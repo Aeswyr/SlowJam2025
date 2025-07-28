@@ -439,10 +439,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.13218391
-    y: 0.010863661
-    width: 0.7356322
-    height: 0.9777295
+    x: 0
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -700,6 +700,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788068544}
   m_CullTransparentMesh: 1
+--- !u!1001 &873609652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1777036688136311876, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924278586926793816, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0400e44fe79012a4b821749e5b38d11d, type: 3}
 --- !u!1001 &1017981841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1122,27 +1179,28 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   butcherDialog:
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 6b5f379e633ca7443a622ec059d0aff5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   grocerDialog:
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   bakerDialog:
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 6d9a406f21b43ca438e5e1c6fcd8833c, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 68838651d17171d4b8fbca8cdbf76d4c, type: 2}
+  - {fileID: 0}
   spiceDialog:
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
-  - {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
+  - {fileID: 11400000, guid: 7ad02e24e19890047b995da77dee04b7, type: 2}
+  - {fileID: 11400000, guid: 481a5afe0fbd07a42b51944f7e252dda, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   flavorDialog: {fileID: 11400000, guid: 02655c1f151a93b4289b2126abcd48f3, type: 2}
   tutorialDialog: {fileID: 11400000, guid: e7a9c4490e6fa664b8c52fbbf05400df, type: 2}
+  endingDialog: {fileID: 11400000, guid: 2f663b56078158c4fb28fe0d14b33e3d, type: 2}
 --- !u!4 &1388348241
 Transform:
   m_ObjectHideFlags: 0
@@ -1597,3 +1655,4 @@ SceneRoots:
   - {fileID: 1388348241}
   - {fileID: 1621514262}
   - {fileID: 7311669484760244966}
+  - {fileID: 873609652}

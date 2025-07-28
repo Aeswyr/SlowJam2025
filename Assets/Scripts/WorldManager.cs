@@ -10,6 +10,7 @@ public class WorldManager : MonoBehaviour
     [SerializeField] private DialogConversation[] spiceDialog;
     [SerializeField] private DialogConversation flavorDialog;
     [SerializeField] private DialogConversation tutorialDialog;
+    [SerializeField] private DialogConversation endingDialog;
 
 
     public void Start()
@@ -49,26 +50,41 @@ public class WorldManager : MonoBehaviour
 
     public void OnProducePressed()
     {
-        DialogManager.Instance.StartDialogSequence(grocerDialog[Save.day], CompleteShopping);
+        if (grocerDialog[Save.day] != null)
+            DialogManager.Instance.StartDialogSequence(grocerDialog[Save.day], CompleteShopping);
+        else
+            CompleteShopping();
     }
 
     public void OnMeatPressed()
     {
-        DialogManager.Instance.StartDialogSequence(butcherDialog[Save.day], CompleteShopping);
+        if (butcherDialog[Save.day] != null)
+            DialogManager.Instance.StartDialogSequence(butcherDialog[Save.day], CompleteShopping);
+        else
+            CompleteShopping();
     }
 
     public void OnSpicePressed()
     {
-        DialogManager.Instance.StartDialogSequence(spiceDialog[Save.day], CompleteShopping);
+        if (spiceDialog[Save.day] != null)
+            DialogManager.Instance.StartDialogSequence(spiceDialog[Save.day], CompleteShopping);
+        else
+            CompleteShopping();
     }
 
     public void OnCarbPressed()
     {
-        DialogManager.Instance.StartDialogSequence(bakerDialog[Save.day], CompleteShopping);
+        if (bakerDialog[Save.day] != null)
+            DialogManager.Instance.StartDialogSequence(bakerDialog[Save.day], CompleteShopping);
+        else
+            CompleteShopping();
     }
 
     public void CompleteShopping()
     {
-        SceneManager.LoadScene("BattleScene");
+        DialogManager.Instance.StartDialogSequence(endingDialog, () =>
+        {
+            SceneManager.LoadScene("BattleScene");
+        });
     }
 }

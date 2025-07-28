@@ -12,4 +12,161 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
   m_Name: Grocer_Stew
   m_EditorClassIdentifier: 
-  conversation: []
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You bump into Stew as you look around the produce section.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Oh, hey boss!
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Stew. How are you feeling?
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Last round was tough. Those Spice Pals are really something.
+  - Sprite: {fileID: -4568492087802265403, guid: 394019d898f6b1641be9a593fd77c691, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I used to enjoy going to the food truck\u2026 until Cayenne broke
+      up with Basil. Now I\u2019m strictly on a no Spice Pals diet."
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I see.
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: What about you Carmella?
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Me?
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: How are you feeling?
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "You hadn\u2019t been thinking much about how you felt about the competition\u2026
+      that was until Cayenne mentioned Nahla."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Now you\u2019re on high alert. You feel your adrenaline coursing through
+      you."
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: "Nahla will be a tough competitor. You don\u2019t think you\u2019ll
+      truly have the courage to face her unless you win."
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Carmella?
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019m fine, Stew. Thanks for checking."
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Okay\u2026 If you say so."
+  - Sprite: {fileID: 3265218961074575985, guid: 621f2ca6a5e79104c8a2cc11ae84e715, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: What are you here to get?
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Just replenishing our syrup supply.
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "You know\u2026 if you\u2019re not busy\u2026"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: Need my arms?
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Absolutely.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You and Stew pay for your syrup supply and begin your walk back to
+      the stadium.
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: I wish we had enough time for me to make the syrup there. I hate using
+      the store bought stuff. It's way more fun to make from scratch. Plus, I love
+      that it makes Rose so happy.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: I remember how excited Rose was to teach me how to make the syrup.
+      And I was surprised that underneath all the sweetness, you could taste just
+      a bit of bitterness.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "If it wasn\u2019t for this job\u2026 I would\u2019ve never been able
+      to learn all this stuff about cooking."
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I wasn\u2019t passionate about much in life before I started working
+      at Cimino\u2019s if I\u2019m honest."
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: I barely made it through college. It had been a seriously dark time
+      in my life.
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I was just way too awkward to make friends\u2026 I was all alone the
+      whole time. It seemed easy for everyone else, but for me? I just never fit
+      anywhere."
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "But then I started working with all of you\u2026 It kind of felt like
+      fate, ya know. Like I finally found my place."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You feel a smile creep onto your face.
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Carmella\u2026 I was wondering\u2026 if we win, do you think I could
+      take a break to do some culinary school?"
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "You can go even if we don\u2019t win. We have plenty saved up in our
+      parachute budget."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "There\u2019s always a place for you at Cimino\u2019s."
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Stew laughs happily.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Thanks. Really.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You make it back to the venue and start preparing for the next round.

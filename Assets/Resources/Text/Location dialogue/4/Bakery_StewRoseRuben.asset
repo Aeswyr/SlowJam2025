@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Bakery_StewRoseRuben
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You walk into the bakery to see Stew, Rose, and Ruben sitting at a
+      table sharing slices of quiche.
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "Well well, I\u2019ll be! If it ain\u2019t Carmella!"
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Carmella! You gotta have some of this!
+  - Sprite: {fileID: -1902968083912694966, guid: 810509fa8dd4b3d44810c1c26657177a, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: No idea why, but they let Rose back there to test a recipe.
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: I had to make sure our product was good.
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Go on, Carmella, have a slice!
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Rose cuts a slice of the quince and slides it to you as you sit at
+      the table. You take some silverware and test it.
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: This is really good.
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I really love the crust. It\u2019s nice and flaky and pretty sweet
+      and a little salty."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "And you\u2019ve got to love the ham bits. Perfectly umami with just
+      a hint of sweet and salty. Pairs perfectly with the crust\u2019s flavors."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "I know we don\u2019t always see eye to eye since I\u2019m not much
+      of a sweets guy, but I can\u2019t deny Rose cooks a mean quiche."
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "I\u2019ll forgive ya just this once for your unreasonable dislike
+      of sweets."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "I\u2019m sure we could find a pastry that has the perfect level of
+      sweetness for Ruben."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Ha. You gonna use me as a guinea pig?
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: "OOO! A fun challenge! I\u2019m in!"
+  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: What do you say, Ruben? Willing to give me a chance to change your
+      mind?
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: Sure, why not.
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Can I join? I want to taste test!
+  - Sprite: {fileID: 875951739734258660, guid: 01842afbb4006f14682840b402256593, type: 3}
+    IsRight: 1
+    SpeakerName: Rose
+    TextLine: For you, Stew? Always.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Niiiice!
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The three of them laugh and you finish your plates. You help Rose carry
+      back the pie crusts and extra dough to the venue.

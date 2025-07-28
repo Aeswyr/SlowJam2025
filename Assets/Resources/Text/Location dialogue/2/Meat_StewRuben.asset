@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97db1b844d97045b087792c851a745, type: 3}
+  m_Name: Meat_StewRuben
+  m_EditorClassIdentifier: 
+  conversation:
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: You find Stew and Ruben standing inside the meat shop.
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "Ruben\u2026 I gotta ask."
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "When you\u2019re working the front of the house, you gotta do a ton
+      of stuff at once\u2026"
+  - Sprite: {fileID: 6862180846331201840, guid: 7b1535adb5bfd014ebd87a36158cdbc3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: How do you do it?
+  - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "And uh\u2026 how do you stay so confident while doing it\u2026"
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "So you\u2019re looking for advice about confidence, is that it?"
+  - Sprite: {fileID: -1902968083912694966, guid: 810509fa8dd4b3d44810c1c26657177a, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Because I see you balance your tasks all the time in the back. I think
+      you just got to believe you have it covered.
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: R-really? I do?
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Absolutely, amigo.
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Listen, think about the ground beef.
+  - Sprite: {fileID: -7129561286481814045, guid: 15448f6566b74874e8853d71e0397f54, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: (What?)
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "\u2026 Uh\u2026 okay."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: "Ground meat can seem really simple, but it\u2019s got a lot of potential."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: It can shape itself into whatever you want, or just stay as is. It
+      takes seasoning like a champ. It's got that nice umami flavor with a hint of
+      salt and bitter.
+  - Sprite: {fileID: -2553459205453789510, guid: a4adcf941f799c6428f7b08176baa383, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "I\u2019m losing you."
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: 'Ground meat goes with the flow. '
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: You are limitless potential, Stew.
+  - Sprite: {fileID: 853763980332585420, guid: ef2d7d956f5719b41af265106cbb2c80, type: 3}
+    IsRight: 1
+    SpeakerName: Ruben
+    TextLine: Just go with the flow.
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: Ruben pats Stew on the shoulder as he turns and walks away, nodding
+      to you as he leaves. You walk over to Stew.
+  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "So\u2026 how was your conversation with Ruben?"
+  - Sprite: {fileID: 8450729719884542880, guid: 0db0b27750b07764f8e6d87778a1ad01, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Honestly, I have no idea why he brought ground meat into it. Made the
+      whole metaphor confusing.
+  - Sprite: {fileID: 3379867039859007948, guid: c2f7898a558bf3c4297515b65d36be71, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: "He\u2019s\u2026 not a metaphor guy."
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "But he said it like he was\u2026"
+  - Sprite: {fileID: -5748962530419415347, guid: 5009d3dab72896f40a4ca10c4b4cdee8, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: "But maybe he\u2019s right. I just gotta flow more."
+  - Sprite: {fileID: -4603192715954035275, guid: a1af816befbf7b74aa58d1457556ffed, type: 3}
+    IsRight: 0
+    SpeakerName: Carmella
+    TextLine: I think that sounds great.
+  - Sprite: {fileID: -2526056233349766801, guid: c3a17f524a1ef5c4fb68abb9b9e877aa, type: 3}
+    IsRight: 1
+    SpeakerName: Stew
+    TextLine: Could you help me grab this box to take back to the kitchen?
+  - Sprite: {fileID: 0}
+    IsRight: 0
+    SpeakerName: 
+    TextLine: The two of you lug your meat order to the venue, but Stew walks with
+      more confidence than before.

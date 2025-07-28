@@ -49,7 +49,7 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: 
     TextLine: Stew Beveridge, he/they, 27; your saucier.
-  - Sprite: {fileID: 0}
+  - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
     IsRight: 0
     SpeakerName: 
     TextLine: and Ruben Porros, 37, he/him; your front of house.

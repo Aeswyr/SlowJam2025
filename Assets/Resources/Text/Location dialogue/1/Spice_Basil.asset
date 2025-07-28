@@ -56,7 +56,7 @@ MonoBehaviour:
   - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
     IsRight: 1
     SpeakerName: Basil
-    TextLine: Yeah. Maybe I am a little.
+    TextLine: Yeah. Maybe I am a little nervous.
   - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
     IsRight: 1
     SpeakerName: Basil

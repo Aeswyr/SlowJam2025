@@ -41,7 +41,7 @@ MonoBehaviour:
     SpeakerName: Rose
     TextLine: Gotta make sure the bread is the perfect subtle combo of sweet, salty,
       and bitter.
-  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
+  - Sprite: {fileID: -4031262166855826311, guid: 97fe0ad1071eb6e46b4d5ba923dd79bf, type: 3}
     IsRight: 1
     SpeakerName: Rose
     TextLine: "Otherwise they\u2019ll throw off the whole dish. Then I\u2019ll have

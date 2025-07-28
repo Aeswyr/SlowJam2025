@@ -22,10 +22,6 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: Carmella
     TextLine: Rose, how are you feeling after the first round?
-  - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
-    IsRight: 0
-    SpeakerName: Carmella
-    TextLine: Rose, how are you feeling after the first round?
   - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
     IsRight: 1
     SpeakerName: 
@@ -45,10 +41,10 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: Carmella
     TextLine: "It\u2019s just part of the competition, Rose. Don\u2019t take it personally."
-  - Sprite: {fileID: 0}
-    IsRight: 0
+  - Sprite: {fileID: 2917462330528900375, guid: 74be4148127681445a8fddba19e43ecc, type: 3}
+    IsRight: 1
     SpeakerName: 
-    TextLine: Rose huffs a little.
+    TextLine: Rose huffs.
   - Sprite: {fileID: -5444826530536025738, guid: b6849b9a0a8e40e4cb69d341da5f7ead, type: 3}
     IsRight: 1
     SpeakerName: Rose
@@ -62,10 +58,6 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: Carmella
     TextLine: "It\u2019s not exactly a sensory friendly environment, is it?"
-  - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
-    IsRight: 1
-    SpeakerName: Rose
-    TextLine: "No it ain\u2019t."
   - Sprite: {fileID: 6617412139533295048, guid: 1f050e2a37e0f2b4e8844ad753b79871, type: 3}
     IsRight: 1
     SpeakerName: Rose

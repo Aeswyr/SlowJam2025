@@ -39,7 +39,7 @@ MonoBehaviour:
     IsRight: 0
     SpeakerName: 
     TextLine: Perhaps if you had gone to the spice shop you could have answered that
-      for yourself... but also why the hell would you want to do that to yourself.
+      question... but also why the hell would you want to do that to yourself.
   - Sprite: {fileID: -8206881424027572638, guid: a9a87b9ab0f49eb4388db86ac9a9b65f, type: 3}
     IsRight: 1
     SpeakerName: Basil
@@ -86,16 +86,16 @@ MonoBehaviour:
     SpeakerName: Basil
     TextLine: "ME! Honestly, wasn\u2019t so bad. Onion is a great food. Sure it\u2019s
       mostly bitter, but it\u2019s also got just a tad of sweet in there to keep
-      it interesting. Guess that\u2019s why they got layers\u2026 because they have\u2026
-      layers\u2026 depth\u2026 whatever\u2026 movie reference."
+      it interesting. Guess that\u2019s why they got layers\u2026 because when you
+      have layers you got..."
   - Sprite: {fileID: 6916030219892246456, guid: c8999b0221dc2d74fa016059aac18ef6, type: 3}
     IsRight: 1
     SpeakerName: Basil
-    TextLine: "layers\u2026 depth\u2026"
+    TextLine: "depth\u2026 or something..."
   - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
     IsRight: 1
     SpeakerName: Basil
-    TextLine: "whatever\u2026 movie reference."
+    TextLine: Whatever. Movie reference.
   - Sprite: {fileID: 4023803876296151051, guid: 5ca8fefc95cd43442a52e5b887e5f769, type: 3}
     IsRight: 1
     SpeakerName: Basil
@@ -130,8 +130,8 @@ MonoBehaviour:
   - Sprite: {fileID: 9161317132185995957, guid: e31cf384344892a4a91b456fa3c86ea5, type: 3}
     IsRight: 0
     SpeakerName: Carmella
-    TextLine: "Lovely. It\u2019s been a while since we\u2019ve seen Cayenne. No wonder
-      she\u2019d just decide to pop up this year again."
+    TextLine: "Lovely. It\u2019s been a while since we\u2019ve seen Cayenne. Can't
+      believe she\u2019d just decide to pop up again this year."
   - Sprite: {fileID: -7727485211131372159, guid: f8506a16d249c824581ae438a04832c2, type: 3}
     IsRight: 1
     SpeakerName: Basil
@@ -169,8 +169,7 @@ MonoBehaviour:
     SpeakerName: Carmella
     TextLine: "A long time ago, I had to split with someone I was close to\u2026
       I was immature about it too. I didn\u2019t even tell her why I was leaving
-      or where to. I still regret it. I bet Cayenne is going to regret how she treated
-      you. If not now, then eventually."
+      or where to. I still regret it."
   - Sprite: {fileID: -1045420529631501556, guid: 869b39792e8391f4a88212e77ad83684, type: 3}
     IsRight: 0
     SpeakerName: Carmella

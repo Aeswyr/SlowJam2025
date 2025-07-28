@@ -33,7 +33,7 @@ MonoBehaviour:
   - Sprite: {fileID: 9181846596342615023, guid: f9bf28edc5dd851489cb68fa9df8d9f3, type: 3}
     IsRight: 1
     SpeakerName: Stew
-    TextLine: "And uh\u2026 how do you stay so confident while doing it\u2026"
+    TextLine: "And uh\u2026 how do you stay so confident while doing it?"
   - Sprite: {fileID: -1632788077870998643, guid: 0a98b0e6b1ba6cc4bbfc64765d421a61, type: 3}
     IsRight: 1
     SpeakerName: Ruben

@@ -207,6 +207,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 2c20615546fa0474e80fee1d4f52dffb, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 5d6600880ce403a49bb2b75002698a64, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 5f3425942600fa64e8d8f3d94d88d0e1, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 2c20615546fa0474e80fee1d4f52dffb, type: 3}
     - target: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
       propertyPath: m_Name
       value: SpiceButton
@@ -439,10 +455,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.21510418
-    y: 0.0037037036
-    width: 0.33333334
-    height: 0.3333333
+    x: 0
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -845,6 +861,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 5f3425942600fa64e8d8f3d94d88d0e1, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 262e00892194b2b4d9bd8fd43b3321fe, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: d44ce4dfbf7b7a54ebeb821733e4319a, type: 3}
     - target: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
       propertyPath: m_Name
       value: MeatButton
@@ -987,6 +1015,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 5f3425942600fa64e8d8f3d94d88d0e1, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 1eb3459cb28a7f443b1baac784512c44, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 977cd89e3d6b921419c225268253193f, type: 3}
     - target: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
       propertyPath: m_Name
       value: ProduceButton
@@ -1304,6 +1344,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 1eb3459cb28a7f443b1baac784512c44, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 2c20615546fa0474e80fee1d4f52dffb, type: 3}
+    - target: {fileID: 4182430578478981949, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
+      propertyPath: 'daySprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: -1858395387658665622, guid: 52ed6a62d437d734db78d800a2fd43ab, type: 3}
     - target: {fileID: 5373420058016331018, guid: 8ecd02d1a4b38a0459ee6a74e9657aa9, type: 3}
       propertyPath: m_Name
       value: CarbButton

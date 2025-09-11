@@ -6,6 +6,7 @@ using DG.Tweening;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -27,6 +28,7 @@ public class BattleManager : MonoBehaviour
 
     [Header("Dialog")]
     [SerializeField] private DialogConversation battleTutorial;
+    [SerializeField] private DialogConversation flavorReminder;
     [SerializeField] private DialogConversation[] openingDialog;
     [SerializeField] private DialogConversation closingDialog;
     [SerializeField] private DialogConversation[] victoryDialog;
@@ -39,6 +41,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private GameObject skillName;
     [SerializeField] private Transform skillTarget;
     [SerializeField] private TextMeshProUGUI skillText;
+    [SerializeField] private TextMeshProUGUI skillNameText;
+    [SerializeField] private GameObject skillNameObject;
 
     [SerializeField] private string[] playerSkills;
     [SerializeField] private string[] enemySkills;
@@ -75,7 +79,8 @@ public class BattleManager : MonoBehaviour
         DrawDefense();
 
         var enemyTeam = enemies[Save.day].sprites;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++)
+        {
             if (i < enemyTeam.Length)
             {
                 characters[5 + i].GetComponent<SpriteRenderer>().sprite = enemyTeam[i];
@@ -135,12 +140,25 @@ public class BattleManager : MonoBehaviour
             var skillOptions = playerSkills[activeChar].Split(',');
             for (int i = 0; i < skillOptions.Length; i++)
             {
-                var button = Instantiate(skillButtonPrefab, skills.transform);
+                var obj = Instantiate(skillButtonPrefab, skills.transform);
                 int skillId = int.Parse(skillOptions[i]);
-                button.GetComponent<Button>().onClick.AddListener(() => AddAction(skillId));
-                var image = button.transform.GetChild(0).GetComponent<Image>();
-                image.sprite = skillLibrary.skills[skillId].Sprite;
-                skillButtons.Add(button);
+                obj.GetComponent<Button>().onClick.AddListener(() => AddAction(skillId));
+                var button = obj.GetComponent<EventTrigger>();
+
+                var image = obj.transform.GetChild(0).GetComponent<Image>();
+                image.sprite = skillLibrary.skills[skillId].IconSprite == null ? skillLibrary.skills[skillId].Sprite : skillLibrary.skills[skillId].IconSprite;
+                skillButtons.Add(obj);
+
+
+                EventTrigger.Entry pointerEnter = new EventTrigger.Entry();
+                pointerEnter.eventID = EventTriggerType.PointerEnter;
+                pointerEnter.callback.AddListener((data) => { OnSkillEnter(skillLibrary.skills[skillId].Name); });
+                button.triggers.Add(pointerEnter);
+
+                EventTrigger.Entry pointerExit = new EventTrigger.Entry();
+                pointerExit.eventID = EventTriggerType.PointerExit;
+                pointerExit.callback.AddListener((data) => { OnSkillExit(); });
+                button.triggers.Add(pointerExit);
             }
 
             // add undo button
@@ -153,6 +171,20 @@ public class BattleManager : MonoBehaviour
 
             locked = false;
         }
+    }
+    private void OnSkillEnter(string name)
+    {
+        skillNameText.text = name;
+        LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)skillNameObject.transform);
+
+        skillNameObject.GetComponent<CanvasGroup>().DOKill();
+        skillNameObject.GetComponent<CanvasGroup>().DOFade(1, 0.35f);
+    }
+
+    private void OnSkillExit()
+    {
+        skillNameObject.GetComponent<CanvasGroup>().DOKill();
+        skillNameObject.GetComponent<CanvasGroup>().DOFade(0, 0.35f);
     }
 
     public void NextChar()
@@ -205,7 +237,7 @@ public class BattleManager : MonoBehaviour
             allyGuards++;
             DrawDefense();
         }
-            
+
 
         if (skillQueue.Count < 5)
         {
@@ -213,6 +245,7 @@ public class BattleManager : MonoBehaviour
         }
         else
         {
+            OnSkillExit();
             SetupCombatRound();
         }
     }
@@ -355,7 +388,8 @@ public class BattleManager : MonoBehaviour
                     enemyStars[i - 1].sprite = star;
                 }
 
-                if (enemyRating >= i || allyRating >= i) {
+                if (enemyRating >= i || allyRating >= i)
+                {
                     AudioManager.Instance.PlaySound("timpani", pitch: 0.9f + 0.1f * i);
                     AudioManager.Instance.PlaySound("chime", pitch: 0.9f + 0.1f * i);
                     if (i == 1)
@@ -560,6 +594,13 @@ public class BattleManager : MonoBehaviour
     public void GameOverQuit()
     {
         Application.Quit();
+    }
+
+    public void FlavorReminder()
+    {
+        if (!selecting)
+            return;
+        DialogManager.Instance.StartDialogSequence(flavorReminder);
     }
 
 }

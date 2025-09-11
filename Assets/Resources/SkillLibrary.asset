@@ -15,6 +15,7 @@ MonoBehaviour:
   skills:
   - Name: Kick
     Sprite: {fileID: -1858395387658665622, guid: 155cee242bd41134fb6abc2468532383, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 0
     flavors:
       Umami: 0
@@ -24,6 +25,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Throw
     Sprite: {fileID: -1858395387658665622, guid: 632881681bab706419de13f5e2231a63, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 0
     flavors:
       Umami: 0
@@ -33,6 +35,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Guard
     Sprite: {fileID: -1858395387658665622, guid: 6b33f599b68753348868167c988ae6f4, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 0
     flavors:
       Umami: 0
@@ -42,6 +45,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Bread
     Sprite: {fileID: -1858395387658665622, guid: cfe176829fec1524594623fc7524b02d, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -51,6 +55,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Noodles
     Sprite: {fileID: -1858395387658665622, guid: c8b3e37cca3a32f4783f878f01382bea, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 1
@@ -60,6 +65,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Pie Crust
     Sprite: {fileID: -1858395387658665622, guid: df92a9ab7801dfa4c99d050e91731e5b, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -69,6 +75,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Pie Topper
     Sprite: {fileID: -1858395387658665622, guid: f4e461eca92d2574690b5777caf0f5a8, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -78,6 +85,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Cherry
     Sprite: {fileID: -1858395387658665622, guid: f72d10d36a9095b42b3bdd19d0f80380, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -87,6 +95,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Lemon
     Sprite: {fileID: -1858395387658665622, guid: 192eeac3623de404a9a5c8dbd516b28a, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -96,6 +105,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Orange
     Sprite: {fileID: -1858395387658665622, guid: e73a53640960f484694df4a0bd83c5fb, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -105,6 +115,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Gravy
     Sprite: {fileID: -1858395387658665622, guid: 4985ba730e170bd46af40a6f4a6144eb, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 1d53ac94a5cd4f445a720360ab686e0f, type: 3}
     IsFood: 1
     flavors:
       Umami: 1
@@ -114,6 +125,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Tomato Sauce
     Sprite: {fileID: -1858395387658665622, guid: 16ff0b8b64d147746a4849f383dc7923, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 8b66d185dc28b964a9a3eb9b7289f1eb, type: 3}
     IsFood: 1
     flavors:
       Umami: 1
@@ -123,6 +135,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Bechamel
     Sprite: {fileID: -1858395387658665622, guid: 38803f3570c40cc4cb29f332d173290e, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 2c5c034a1ddcd024d80959b8e32e1773, type: 3}
     IsFood: 1
     flavors:
       Umami: 0
@@ -132,6 +145,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Pepper
     Sprite: {fileID: -1858395387658665622, guid: bcadb9a141448ad4ea3d5fb8cc73c489, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 5ba20d98ea5ef714c8d1dd8adf2eeb77, type: 3}
     IsFood: 1
     flavors:
       Umami: 0
@@ -141,6 +155,7 @@ MonoBehaviour:
       Bitter: 3
   - Name: Salt
     Sprite: {fileID: -1858395387658665622, guid: a563e9aa1034cae44a201f39a762e619, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 1f7154358e07f444bbc5e299ab3cb14d, type: 3}
     IsFood: 1
     flavors:
       Umami: 0
@@ -150,6 +165,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Paprika
     Sprite: {fileID: -1858395387658665622, guid: feff664018616dc48b582315aef205d9, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 84f755ee453a8f8409bec11c62a3c74f, type: 3}
     IsFood: 1
     flavors:
       Umami: 1
@@ -159,6 +175,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Carrot
     Sprite: {fileID: -1858395387658665622, guid: c1b5b51abe9d1ef42a05186122092ac9, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -168,6 +185,7 @@ MonoBehaviour:
       Bitter: 2
   - Name: Kale
     Sprite: {fileID: -1858395387658665622, guid: 1c3be42fa7aa72242a50ba1b07ebdce4, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -176,7 +194,8 @@ MonoBehaviour:
       Sour: 1
       Bitter: 2
   - Name: Onion
-    Sprite: {fileID: -1858395387658665622, guid: d96b4eba4b780634b84cb21afde52c6d, type: 3}
+    Sprite: {fileID: -1858395387658665622, guid: 0f74ac4d6a5ec874da137f8af8599e9e, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -186,6 +205,7 @@ MonoBehaviour:
       Bitter: 2
   - Name: Ground Meat
     Sprite: {fileID: -1858395387658665622, guid: 720c79a4c5dcde14bbc4d360a8236f11, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 2
@@ -195,6 +215,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Meatball
     Sprite: {fileID: -1858395387658665622, guid: f81e615517e6cf14fa50cb9e235026e9, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 2
@@ -204,6 +225,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Steak
     Sprite: {fileID: -1858395387658665622, guid: b5fff78fc56a11e4685436ef12236190, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 3
@@ -213,6 +235,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Ham
     Sprite: {fileID: -1858395387658665622, guid: 86926a5383a49ef48a015c3bc87a50dd, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 2
@@ -222,6 +245,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Sugar
     Sprite: {fileID: -1858395387658665622, guid: 2e841ec3d66dc184885df3f0d8f6d91b, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: 0
@@ -231,6 +255,7 @@ MonoBehaviour:
       Bitter: 0
   - Name: Syrup
     Sprite: {fileID: -1858395387658665622, guid: c567d841829378647afe1e9dce9ed4bf, type: 3}
+    IconSprite: {fileID: -1858395387658665622, guid: 32ad48d953be36245a9493a5102f8e59, type: 3}
     IsFood: 1
     flavors:
       Umami: 0
@@ -240,6 +265,7 @@ MonoBehaviour:
       Bitter: 1
   - Name: Garbage
     Sprite: {fileID: -1858395387658665622, guid: 3c35bac809d7675439b409abbcd8ad11, type: 3}
+    IconSprite: {fileID: 0}
     IsFood: 1
     flavors:
       Umami: -1
@@ -249,6 +275,7 @@ MonoBehaviour:
       Bitter: -1
   - Name: 
     Sprite: {fileID: 0}
+    IconSprite: {fileID: 0}
     IsFood: 0
     flavors:
       Umami: 0

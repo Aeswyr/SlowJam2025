@@ -12,6 +12,7 @@ public struct Skill
 {
     public string Name;
     public Sprite Sprite;
+    public Sprite IconSprite;
     public bool IsFood;
     public FlavorProfile flavors;
 }
